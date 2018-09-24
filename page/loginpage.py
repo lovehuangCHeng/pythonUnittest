@@ -2,6 +2,8 @@
 from page import BaseDriver
 
 class LoginPage(BaseDriver.BascPage):
+     def __init__(self,driver):
+          super(LoginPage,self).__init__(driver)
      '''
      获取用户名输入框，并输入值
      '''

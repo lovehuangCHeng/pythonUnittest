@@ -16,8 +16,8 @@ class BascPage():
      '''
      def get_element(self, key):
           config = configparser.ConfigParser()
-          config.read("../dataconfig/element.ini")
-          vak = config.get("ZIP", key)
+          config.read("./config/element.ini")
+          vak = config.get("ELE", key)
           by = vak.split("/")[0]
           by_value = vak.split("/")[1]
           try:
@@ -123,7 +123,7 @@ class BascPage():
           for cookie in self.driver.get_cookies():
                dict_cookies[cookie['name']] = cookie['value']
                if cookie['name'] == "nova_pms_auth_Default":
-                    with open('../dataconfig/cookies.txt', 'w') as f:
+                    with open('./config/cookies.txt', 'w') as f:
                          cook = json.dumps(cookie)
                          f.write(cook)
                          f.close()
@@ -133,7 +133,7 @@ class BascPage():
      '''
 
      def setCookie(self):
-          with open('../dataconfig/cookies.txt', 'r', encoding='utf-8') as f:
+          with open('./config/cookies.txt', 'r', encoding='utf-8') as f:
                s = f.read()
                cookies = json.loads(s)
                print(cookies)

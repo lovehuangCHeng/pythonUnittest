@@ -1,14 +1,14 @@
 #coding=utf-8
 import unittest
-from case import baseCase
-from page import loginpage
-class LoginCase(baseCase.BaseCase,unittest.TestCase):
-     bc=baseCase.BaseCase()
+from case.baseCase import BaseCase
+from page.loginpage import LoginPage
+class LoginCase(unittest.TestCase):
+     bc=BaseCase()
      driver=bc.getDriver()
-     lp=loginpage.LoginPage(driver)
+     lp=LoginPage(driver)
      @classmethod
      def setUp(cls):
-          url=cls.bc.readUrl("loginURL")
+          url = cls.bc.readUrl("loginURL")
           cls.lp.get(url)
      def test_login(self):
           self.lp.login("admin","1234567")
