@@ -2,6 +2,8 @@
 import  os
 import  unittest
 import HTMLTestRunner
+import sys
+sys.path.append("D:\/GIT/python/case")
 from case import test_bascinfo,test_logincase
 
 long=unittest.TestLoader().loadTestsFromTestCase(test_logincase.LoginCase)
