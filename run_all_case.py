@@ -29,7 +29,7 @@ def discover_case():
 
 if __name__=="__main__":
      #runner=unittest.TextTestRunner()
-     fp=open("D:\\GIT\\python\\case\\result.html","wb")
+     fp=open("./case/result.html","wb")
      runner=HTMLTestRunner.HTMLTestRunner(stream=fp,title=u'这个测试报告',description=u'这是测试用例')
      runner.run(discover_case())
      fp.close()
