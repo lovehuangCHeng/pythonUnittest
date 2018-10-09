@@ -1,5 +1,6 @@
 #coding=utf-8
 import configparser
+import odbc.odbcHandl
 import os
 from selenium import  webdriver
 class BaseCase(object):
@@ -24,4 +25,7 @@ class BaseCase(object):
           conf.read("./config/url.ini")
           url = conf.get("TESTURL", key)
           return  url
+     def reddatasql(self,sqlkey,num):
+          od=odbc.odbcHandl.SqlData()
+          od.guanliqu(sqlkey,num)
 

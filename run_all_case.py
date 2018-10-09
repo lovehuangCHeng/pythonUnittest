@@ -24,7 +24,6 @@ def discover_case():
                # 添加用例到testcase
                # testcase.addTests(test_case)
                testcase.addTests(test_case)
-
      return (testcase)
 
 if __name__=="__main__":
