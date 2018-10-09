@@ -16,7 +16,7 @@ class BascPage():
      '''
      def get_element(self, key):
           config = configparser.ConfigParser()
-          config.read("./config/element.ini")
+          config.read("../config/element.ini",encoding="utf-8-sig")
           vak = config.get("ELE", key)
           by = vak.split("/")[0]
           by_value = vak.split("/")[1]
@@ -80,7 +80,7 @@ class BascPage():
 
      def readUrl(self, key):
           conf = configparser.ConfigParser()
-          conf.read("../dataconfig/url.ini")
+          conf.read("../dataconfig/url.ini",encoding="utf-8-sig")
           url = conf.get("ZIP", key)
           return url
 
@@ -123,7 +123,7 @@ class BascPage():
           for cookie in self.driver.get_cookies():
                dict_cookies[cookie['name']] = cookie['value']
                if cookie['name'] == "nova_pms_auth_Default":
-                    with open('./config/cookies.txt', 'w') as f:
+                    with open('../config/cookies.txt', 'w') as f:
                          cook = json.dumps(cookie)
                          f.write(cook)
                          f.close()
@@ -133,7 +133,7 @@ class BascPage():
      '''
 
      def setCookie(self):
-          with open('./config/cookies.txt', 'r', encoding='utf-8') as f:
+          with open('../config/cookies.txt', 'r', encoding="utf-8-sig") as f:
                s = f.read()
                cookies = json.loads(s)
                print(cookies)

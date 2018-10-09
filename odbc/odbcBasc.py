@@ -22,7 +22,7 @@ class odbc():
 
     def redconfig(self,key):
         conf = configparser.ConfigParser()
-        conf.read("sql.ini",encoding="utf-8-sig")
+        conf.read("../odbc/sql.ini",encoding="utf-8-sig")
         value = conf.get("SQL", key)
         return value
 

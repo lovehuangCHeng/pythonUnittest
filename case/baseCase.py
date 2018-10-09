@@ -1,12 +1,13 @@
 #coding=utf-8
 import configparser
 import odbc.odbcHandl
-import os
 from selenium import  webdriver
 class BaseCase(object):
      def getDriver(self):
-          # chromedriver = "D:\python\python\chromedriver.exe"
-          # os.environ["webdriver.chrome.driver"] = chromedriver
+          '''
+          获取webdriver
+          :return:
+          '''
           driver = webdriver.Chrome()
           return driver
      '''
@@ -14,7 +15,7 @@ class BaseCase(object):
      '''
      def readData(self,key):
           conf = configparser.ConfigParser()
-          conf.read("./config/testData.ini")
+          conf.read("../config/testData.ini",encoding="utf-8-sig")
           value=conf.get("DATA",key)
           return value
      '''
@@ -22,10 +23,18 @@ class BaseCase(object):
      '''
      def readUrl(self,key):
           conf = configparser.ConfigParser()
-          conf.read("./config/url.ini")
+          conf.read("../config/url.ini",encoding="utf-8-sig")
           url = conf.get("TESTURL", key)
           return  url
+
      def reddatasql(self,sqlkey,num):
+          '''
+          读取数据库中的数据
+          :param sqlkey:
+          :param num:
+          :return:
+          '''
           od=odbc.odbcHandl.SqlData()
-          od.guanliqu(sqlkey,num)
+          val=od.guanliqu(sqlkey,num)
+          return val
 

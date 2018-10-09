@@ -2,7 +2,7 @@
 import unittest
 from case.baseCase import BaseCase
 from page.loginpage import LoginPage
-class LoginCase(unittest.TestCase):
+class Test_LoginCase(unittest.TestCase):
      bc=BaseCase()
      driver=bc.getDriver()
      lp=LoginPage(driver)
