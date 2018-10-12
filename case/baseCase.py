@@ -3,6 +3,7 @@ import configparser
 import odbc.odbcHandl
 from selenium import  webdriver
 class BaseCase(object):
+     guanliqu = "三千院"
      def getDriver(self):
           '''
           获取webdriver
@@ -37,4 +38,6 @@ class BaseCase(object):
           od=odbc.odbcHandl.SqlData()
           val=od.guanliqu(sqlkey,num)
           return val
+
+
 

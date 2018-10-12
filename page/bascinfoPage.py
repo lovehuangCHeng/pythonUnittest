@@ -16,7 +16,7 @@ class BascinfoPage(BaseDriver.BascPage):
           except :
                assert strass in self.get_divlonginput()
                sleep(2)
-               self.get_divlonginput()
+               self.click_divlongbtn()
                sleep(2)
      '''
      通过模糊搜索，搜索数据的通用方法
@@ -40,16 +40,18 @@ class BascinfoPage(BaseDriver.BascPage):
      '''
      def selectCustomer(self,num):
           self.click("selectCustomerbtn")
-          self.driver.find_elements_by_xpath(
-               "//*[@id='CustomerId_CustomerGrid']/div[2]/table/tbody/tr["+num+"]/td[3]").click()
+          sleep(1)
+          str="//*[@id='CustomerId_CustomerGrid']/div[2]/table/tbody/tr[%d]/td[3]" %num
+          self.driver.find_element_by_xpath(str).click()
+          sleep(1)
           self.click("btnCustomerId")
      '''
      选择房间的方法
      '''
      def selectHouse(self,num):
           self.click("selectHousebtn")
-          self.driver.find_elements_by_xpath(
-               "//*[@id='HouseId_HouseGrid']/div[2]/table/tbody/tr[" + num + "]/td[6]").click()
+          str="//*[@id='HouseId_HouseGrid']/div[2]/table/tbody/tr[%d]/td[6]" %num
+          self.driver.find_element_by_xpath(str).click()
           self.click("btnconfirem")
      #获取新建按钮
      def click_newAdd(self):
@@ -139,7 +141,7 @@ class BascinfoPage(BaseDriver.BascPage):
           self.click("changehistory")
 
      #更改状态  按钮
-     def clich_status(self):
+     def click_status(self):
           self.click("changhousestatu")
 
      #批量生成 按钮
@@ -192,7 +194,9 @@ class BascinfoPage(BaseDriver.BascPage):
      #改变房间状态页面【确认】按钮
      def click_status_comfire(self):
           self.click("ChangeStatusokbut")
-
+     #批量页面取消按钮
+     def click_quxioa_pili(self):
+         self.click("quxioa_pili")
      '''
      房产状态统计页面，定位信息
      '''

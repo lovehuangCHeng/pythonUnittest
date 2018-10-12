@@ -10,7 +10,7 @@ class BascPage():
      '''
      def __init__(self,driver):
           self.driver = driver
-          self.driver.implicitly_wait(15)
+          self.driver.implicitly_wait(10)
      '''
           通过下面七种方法找元素的方法，并返回元素
      '''
@@ -122,11 +122,10 @@ class BascPage():
           dict_cookies = {}
           for cookie in self.driver.get_cookies():
                dict_cookies[cookie['name']] = cookie['value']
-               if cookie['name'] == "nova_pms_auth_Default":
-                    with open('../config/cookies.txt', 'w') as f:
-                         cook = json.dumps(cookie)
-                         f.write(cook)
-                         f.close()
+               with open('../config/cookies.txt', 'w') as f:
+                    cook = json.dumps(cookie)
+                    f.write(cook)
+               f.close()
 
      '''
      从文件中读取cookie
@@ -152,7 +151,7 @@ class BascPage():
      断言的方法,通过元素的字符串判断是否有这个元素
      '''
      def assertTure(self,key,exceptasser):
-          time.sleep(6)
+          time.sleep(2)
           element=self.find_element(key).text
           assert exceptasser in element
      '''

@@ -11,7 +11,6 @@ class Test_BascinfoCase(baseCase.BaseCase,unittest.TestCase):
      louyuname=bc.readData("louyuname")
      guanliqu=bc.readData("guanliqu_louyu")
      dataguanliqu=bc.reddatasql("guanliqusql",1)
-     print(dataguanliqu)
      @classmethod
      def setUpClass(cls):
           url=cls.bc.readUrl("louyuURL")
