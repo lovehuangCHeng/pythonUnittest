@@ -29,7 +29,6 @@ class Test_BascinfoCase(baseCase.BaseCase,unittest.TestCase):
           self.lp.szkunew(self.name,1,self.newmessage)
      def test_3editszkm(self):
           self.lp.editszkm(self.check_szkm,self.name,self.editmessage,self.check_queren)
-
      def test_4delszkm(self):
           self.lp.delnewbulid(self.name,self.delmessage)
      @classmethod

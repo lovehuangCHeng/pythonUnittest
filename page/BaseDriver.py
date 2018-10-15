@@ -8,9 +8,10 @@ class BascPage():
      '''
      构造方法，初始化driver
      '''
+
      def __init__(self,driver):
           self.driver = driver
-          self.driver.implicitly_wait(10)
+          self.driver.implicitly_wait(15)
      '''
           通过下面七种方法找元素的方法，并返回元素
      '''
@@ -37,6 +38,7 @@ class BascPage():
                     return self.driver.find_element_by_tag_name(by_value)
           except Exception as e:
                print(e)
+
      '''
      通过xptah和classname 等方法找到元素
      '''
@@ -51,11 +53,11 @@ class BascPage():
      输入框的输入方法，先清除输入框的内容，再输入值
      '''
      def sendkeys(self, key, value):
-
           element = self.get_element(key)
-
-          element.clear()
-
+          try:
+               element.clear()
+          except Exception as e:
+               print(e)
           element.send_keys(value)
      '''
      点击的方法
@@ -90,7 +92,11 @@ class BascPage():
 
      def get(self, url):
           self.driver.get(url)
-          self.driver.maximize_window()
+          try:
+               self.driver.maximize_window()
+          except:
+               print("窗口不用最大化了")
+
 
      '''
      定义script方法，用于执行js脚本，范围执行结果
@@ -146,7 +152,11 @@ class BascPage():
           fram = self.get_element(key)
           time.sleep(2)
           self.driver.switch_to.frame(fram)
-
+     '''
+     切换回默认窗口
+     '''
+     def switch_default(self):
+          self.driver.switch_to.default_content()
      '''
      断言的方法,通过元素的字符串判断是否有这个元素
      '''

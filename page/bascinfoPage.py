@@ -9,7 +9,7 @@ class BascinfoPage(BaseDriver.BascPage):
      '''
      def assetdiv(self,strass):
           try :
-               assert strass in  self.get_divshotinput()
+               assert strass in self.get_divshotinput()
                sleep(2)
                self.click_divshotbtn()
                sleep(2)
@@ -53,6 +53,15 @@ class BascinfoPage(BaseDriver.BascPage):
           str="//*[@id='HouseId_HouseGrid']/div[2]/table/tbody/tr[%d]/td[6]" %num
           self.driver.find_element_by_xpath(str).click()
           self.click("btnconfirem")
+     '''
+     时间操作按钮
+     '''
+     def click_time(self):
+         self.click("clicktime")
+         sleep(2)
+         element="k-footer"
+         self.find_element(element).click()
+
      #获取新建按钮
      def click_newAdd(self):
           self.click("newbuild")
@@ -200,6 +209,61 @@ class BascinfoPage(BaseDriver.BascPage):
      '''
      房产状态统计页面，定位信息
      '''
+     #房产状态统计按钮
+     def click_housetongji(self):
+         self.click("housetongji")
+     '''
+     客户管理
+     '''
+
+     #客户档案新建页面，客户类别  现在默认为：个人  暂不填写
+     #客户档案新建页面，管理区  sendkey_guanliqu（value）
+     #客户档案新建页面，客户名称
+     def send_customer_name(self,name):
+         self.sendkeys("louyuname",name)
+     #客户档案 ， 合并重名客户 按钮
+     def click_renameCustomerMerge(self):
+         self.click("renameCustomerMerge")
+     #交房登页面
+     def click_SaveAndBack(self):
+         self.click("SaveAndBack")
+     #改变交房日期
+     def click_chenagedate(self):
+         self.click("chagejiaofang")
+     #接房登记页面。确认按钮
+     def click_jiefang_save(self):
+         self.click("PaymentPreview")
+     #接房登记新建界面弹窗
+     def get_jiefangdivbox(self):
+         element=self.find_element("bootbox-body").text
+         return element
+     #接房登记，查看按钮
+     def click_chakan(self):
+         self.click("btnLook")
+     #接房登记，查看页面，返回按钮
+     def click_back(self):
+         self.click("fanghui")
+
+     '''
+     车库管理
+     '''
+     #车库档案页面，新建按钮
+     def click_btnnew(self):
+         self.click("newadd")
+     #车库档案新建页面，车库名称
+     def send_carcagename(self,Garagename):
+         self.sendkeys("CarbarnName",Garagename)
+     #选择车库按钮
+     def click_carGaragen(self):
+         self.click("carkuname")
+         sleep(2)
+         self.get_click_elements(0)
+     #输入车位号
+     def send_carnumber(self,carnumber):
+         self.sendkeys("carnum",carnumber)
+     #车位档案页面，绑定业主按钮
+     def click_BindcarCustomer(self):
+         self.click("BindcarCustomer")
 
 
 
