@@ -16,7 +16,7 @@ class BaseCase(object):
      '''
      def readData(self,key):
           conf = configparser.ConfigParser()
-          conf.read("../config/testData.ini",encoding="utf-8-sig")
+          conf.read("./config/testData.ini",encoding="utf-8-sig")
           value=conf.get("DATA",key)
           return value
      '''
@@ -24,7 +24,7 @@ class BaseCase(object):
      '''
      def readUrl(self,key):
           conf = configparser.ConfigParser()
-          conf.read("../config/url.ini",encoding="utf-8-sig")
+          conf.read("./config/url.ini",encoding="utf-8-sig")
           url = conf.get("TESTURL", key)
           return  url
 

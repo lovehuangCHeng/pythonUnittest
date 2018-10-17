@@ -264,6 +264,41 @@ class BascinfoPage(BaseDriver.BascPage):
      #车位档案页面，绑定业主按钮
      def click_BindcarCustomer(self):
          self.click("BindcarCustomer")
+     '''
+     设备物料管理
+     '''
+     #设备档案，新建页面，设备类型
+     def send_shebeiType(self,type):
+          self.sendkeys("shebeitype",type)
+     #保养计划，完成保养计划
+     def click_shebei_complete(self):
+          self.click("shebei_complete")
+     #保养计划，查看保养计划
+     def click_shebei_lookbtn(self):
+          self.click("shebei_lookbtn")
+     #保养计划，新建页面，设备名称
+     def send_shebeiName(self,num):
+          self.click("sehbei_selname")
+          sleep(2)
+          self.get_click_elements(num)
+     #保养计划，新建页面，保养项目
+     def send_baoyangxiangmu(self,text):
+          self.sendkeys("MaintenanceItem",text)
+     #保养计划，新建页面，保养级别
+     def slect_baoyang_jibie(self,text):
+          self.selector("MaintenanceLevel",text)
+     #保养计划，完后保养计划，保养人
+     def send_person(self,person):
+          self.sendkeys("shebei_Person",person)
+     #得到查看保养计划text
+     def get_baoyang_lookbtn(self):
+          element=self.get_element("shebei_lookbtn")
+          return  element
+     #查看保养计划
+     def click_baoyang_lookbtn(self):
+          self.click("shebei_lookbtn")
+
+
 
 
 

@@ -4,6 +4,8 @@ import time
 import configparser
 import json
 from selenium.webdriver.support.ui import Select
+from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.keys import Keys
 class BascPage():
      '''
      构造方法，初始化driver
@@ -17,7 +19,7 @@ class BascPage():
      '''
      def get_element(self, key):
           config = configparser.ConfigParser()
-          config.read("../config/element.ini",encoding="utf-8-sig")
+          config.read("./config/element.ini",encoding="utf-8-sig")
           vak = config.get("ELE", key)
           by = vak.split("/")[0]
           by_value = vak.split("/")[1]
@@ -82,7 +84,7 @@ class BascPage():
 
      def readUrl(self, key):
           conf = configparser.ConfigParser()
-          conf.read("../dataconfig/url.ini",encoding="utf-8-sig")
+          conf.read("./dataconfig/url.ini",encoding="utf-8-sig")
           url = conf.get("ZIP", key)
           return url
 
@@ -128,7 +130,7 @@ class BascPage():
           dict_cookies = {}
           for cookie in self.driver.get_cookies():
                dict_cookies[cookie['name']] = cookie['value']
-               with open('../config/cookies.txt', 'w') as f:
+               with open('./config/cookies.txt', 'w') as f:
                     cook = json.dumps(cookie)
                     f.write(cook)
                f.close()
@@ -138,7 +140,7 @@ class BascPage():
      '''
 
      def setCookie(self):
-          with open('../config/cookies.txt', 'r', encoding="utf-8-sig") as f:
+          with open('./config/cookies.txt', 'r', encoding="utf-8-sig") as f:
                s = f.read()
                cookies = json.loads(s)
                print(cookies)
@@ -170,3 +172,24 @@ class BascPage():
      def refresh(self):
           self.driver.refresh()
 
+     '''
+     右击  context_click()
+     左击  click_and_hold()
+     双击  double_click()
+     拖动  drag_and_drop()
+     悬停  move_to_element()
+     使用perform()提交生效操作
+     使用语法：ActionChains(网页窗口对象).事件(元素对象).perform()
+     鼠标左击
+     '''
+     def charis_left(self,element):
+          ActionChains(self.driver).click_and_hold(element).perform()
+     #鼠标悬停
+     def charis_moveto_ele(self,element):
+          ActionChains(self.driver).move_to_element(element).perform()
+     #鼠标右击
+     def charis_right(self,element):
+          ActionChains(self.driver).context_click(element).perform()
+     #鼠标双击事件
+     def charis_double_click(self,element):
+          ActionChains(self.driver).double_click(element).perform()

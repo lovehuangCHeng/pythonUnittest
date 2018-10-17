@@ -328,6 +328,83 @@ class louyu(bascinfoPage.BascinfoPage):
           self.click_btnOkWindow()
           sleep(2)
           self.assetdiv("绑定业主成功")
+     '''
+     设备管理，新建设备档案数据
+     '''
+     def shebei_new(self,guanliqu,name,code,type):
+          sleep(2)
+          self.click_btnnew()
+          sleep(2)
+          self.sendkey_guanliqu(guanliqu)
+          sleep(2)
+          self.sendkey_louyuname(name)
+          sleep(2)
+          self.sendkey_louyunum(code)
+          sleep(2)
+          self.send_shebeiType(type)
+          sleep(2)
+          self.click_save()
+          sleep(2)
+          self.assetdiv("创建设备档案成功")
+     '''
+     保养计划 新建方法
+     '''
+     def baoyang_new(self,xiangmu,level):
+          sleep(2)
+          self.click_newAdd()
+          sleep(2)
+          self.send_shebeiName(0)
+          sleep(2)
+          self.send_baoyangxiangmu(xiangmu)
+          sleep(2)
+          self.slect_baoyang_jibie(level)
+          sleep(2)
+          self.click_save()
+          sleep(2)
+          self.assetdiv("创建设备保养计划成功")
+     '''
+     完成保养计划，新建的保养计划数据
+     '''
+     def baoyang_finsh(self,newdata,checkbox,person):
+          sleep(2)
+          self.selectdata(newdata)
+          sleep(2)
+          self.find_element(checkbox).click()
+          sleep(2)
+          self.click_shebei_complete()
+          sleep(2)
+          self.send_person(person)
+          sleep(2)
+          self.click_save()
+          sleep(2)
+          assert "查看保养计划" in self.get_baoyang_lookbtn()
+     '''
+     查看保养计划
+     '''
+     def baoyang_chakan(self,newdata,checkbox):
+          sleep(2)
+          self.selectdata(newdata)
+          sleep(2)
+          self.find_element(checkbox).click()
+          sleep(2)
+          self.click_baoyang_lookbtn()
+          sleep(2)
+          self.click_back()
+          sleep(2)
+     '''
+     高级搜索方法，按设备名称
+     '''
+     def baoyang_select_develop(self,newname,key):
+          sleep(2)
+          self.click_down()
+          sleep(2)
+          self.sendkey_louyuname(newname)
+          sleep(2)
+          self.click_seldevelop()
+          sleep(2)
+          self.click_up()
+          sleep(2)
+          self.assertTure(key, newname)
 
 
 class szgu(szguPage.SZGLpage):
