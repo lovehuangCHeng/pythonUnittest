@@ -2,7 +2,10 @@
 import unittest
 from handle import handleWuYeScores
 from case import baseCase
+import allure
+import pytest
 
+@allure.feature('物业资源管理')
 class Test_BascinfoCase(baseCase.BaseCase,unittest.TestCase):
      bc = baseCase.BaseCase()
      driver = bc.getDriver()
@@ -25,6 +28,6 @@ class Test_BascinfoCase(baseCase.BaseCase,unittest.TestCase):
      def tearDownClass(cls):
           cls.lp.quet()
 if __name__ =="__main__":
-     unittest.main()
+     pytest.main(['-s', '-q', '--alluredir', './report/xml'])
 
 

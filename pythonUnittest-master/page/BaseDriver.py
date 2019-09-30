@@ -1,12 +1,11 @@
 #coding=utf-8
 
 import time
-import configparser
-import json
-import pickle
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
+import configparser
+import json
 class BascPage():
      '''
      构造方法，初始化driver
@@ -17,9 +16,9 @@ class BascPage():
      '''
           通过下面七种方法找元素的方法，并返回元素
      '''
-     def get_element(self, key):
+     def get_element(self,key):
           config = configparser.ConfigParser()
-          config.read("../config/element.ini",encoding="utf-8-sig")
+          config.read("D:/GitHub/pythonUnittest-master/config/element.ini",encoding="utf-8-sig")
           vak = config.get("ELE", key)
           by = vak.split("----")[0]
           by_value = vak.split("----")[1]
@@ -91,40 +90,28 @@ class BascPage():
      '''
      def delCookie(self):
           self.driver.delete_all_cookies()
-     '''
-     '''
-     def get_allCookies(self):
-          cookies = self.driver.get_cookies()
-          with open('../config/cookies.txt', 'wb') as f:
-               pickle.dump(cookies,f)
 
      '''
-          保存cookie到文件中
-     '''
+     获取cookiename=nova_pms_auth_Default，保存cookie到文件中cookies.txt
+      '''
      def saveCookis(self):
-          dict_cookies={}
           for cookie in self.driver.get_cookies():
-          #cookies=self.driver.get_cookies()
-               #dict_cookies[cookie['nova_pms_auth_Default']] = cookie['value']
-               if(cookie['name']=="nova_pms_auth_Default"):
-                    with open('../config/cookies.txt', 'w') as fp:
-                         #ss=cookie['value']
-                         json.dump(cookie,fp)
-
+               if (cookie['name'] == "nova_pms_auth_Default"):
+                    with open('D:/GitHub/pythonUnittest-master/config/cookies.txt', 'w') as fp:
+                         # ss=cookie['value']
+                         json.dump(cookie, fp)
      '''
-     从文件中读取cookie
+          从文件中读取cookie
      '''
      def setCookie(self):
-          with open('../config/cookies.txt', 'r', encoding="utf-8-sig") as fp:
-               #s = fp.read()
+          with open('D:/GitHub/pythonUnittest-master/config/cookies.txt', 'r', encoding="utf-8-sig") as fp:
+               # s = fp.read()
                cookies = json.load(fp)
                print(cookies)
                self.driver.add_cookie(cookies)
-
      '''
         切换ifram 窗口
-        '''
-
+     '''
      def switch_fram(self, key):
           fram = self.get_element(key)
           time.sleep(2)

@@ -22,8 +22,8 @@ class LoginPage(BaseDriver.BascPage):
      '''
           登录的方法
       '''
-     def login(self, username, password,assertkey,assertEle):
+     def login(self, username, password):
           self.senkeys_user(username)
           self.sendkeys_password(password)
           self.click_logbutton()
-          self.assertTure(assertkey,assertEle)
+

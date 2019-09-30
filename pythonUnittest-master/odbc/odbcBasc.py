@@ -1,6 +1,7 @@
 import pymssql
 import configparser
 class odbc():
+
     def __init__(self):
         '''
         server    数据库服务器名称或IP
@@ -23,14 +24,14 @@ class odbc():
         'select Name from OrganizationItem where Discriminator=%s','管理区'
         :param sql:
         '''
-        print(self.redconfig(sql))
-        self.cursor.execute(self.redconfig(sql))
+        print(self.redsqlconfig(sql))
+        self.cursor.execute(self.redsqlconfig(sql))
         row = self.cursor.fetchall()
         return row
 
     def InsertData(self,sql):
-        print(self.redconfig(sql))
-        self.cursor.execute(self.redconfig(sql))
+        print(self.redsqlconfig(sql))
+        self.cursor.execute(self.redsqlconfig(sql))
         # 如果没有指定autocommit属性为True的话就需要调用commit()方法
         self.cnxn.commit()
     #执行存储过程的，目前只支持一个变量。
@@ -39,11 +40,11 @@ class odbc():
         self.cnxn.commit()
     # 删除操作
     def DeleteData(self,sql):
-        self.cursor.execute(self.redconfig(sql))
+        self.cursor.execute(self.redsqlconfig(sql))
 
     # 修改操作
     def UpdateData(self,sql):
-        self.cursor.execute(self.redconfig(sql))
+        self.cursor.execute(self.redsqlconfig(sql))
 
     def close(self):
         '''
@@ -52,16 +53,14 @@ class odbc():
         self.cursor.close()
         self.cnxn.close()
 
-    def redconfig(self,key):
-        '''
-        读取sql语句
-        :param key:
-        '''
+    '''
+         读取数据库配置文件
+    '''
+    def redsqlconfig(self, key):
         conf = configparser.ConfigParser()
-        conf.read("../config/sql.ini",encoding="utf-8-sig")
+        conf.read("D:/GitHub/pythonUnittest-master/config/sql.ini", encoding="utf-8-sig")
         value = conf.get("SQL", key)
         return value
-
     def writeConfig(self):
         conf = configparser.ConfigParser()
         conf.set("group_b", "b_key3", "new3")  # 指定section和option则更新value
