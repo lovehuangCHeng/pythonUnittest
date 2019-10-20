@@ -107,7 +107,7 @@ class BascPage():
           with open('D:/GitHub/pythonUnittest-master/config/cookies.txt', 'r', encoding="utf-8-sig") as fp:
                # s = fp.read()
                cookies = json.load(fp)
-               print(cookies)
+               #print(cookies)
                self.driver.add_cookie(cookies)
      '''
         切换ifram 窗口
@@ -142,8 +142,8 @@ class BascPage():
      悬停  move_to_element()
      使用perform()提交生效操作
      使用语法：ActionChains(网页窗口对象).事件(元素对象).perform()
-     鼠标左击
      '''
+     #鼠标左击
      def charis_left(self,element):
           ActionChains(self.driver).click_and_hold(element).perform()
      #鼠标悬停
@@ -155,6 +155,11 @@ class BascPage():
      #鼠标双击事件
      def charis_double_click(self,element):
           ActionChains(self.driver).double_click(element).perform()
+     #滑动到页面底部事件
+     def charis_sliding(self):
+          js = "var q=document.documentElement.scrollTop=100000"
+          self.driver.execute_script(js)
+
 
 
      '''

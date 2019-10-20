@@ -13,7 +13,7 @@ class odbc():
         self.server='WIN-E4I1KQ1IN70'
         self.user='sa'
         self.password='Sa123456'
-        self.database='pms_demo_master'
+        self.database='pms_test_0918'
 
     def connect(self):
          self.cnxn = pymssql.connect(self.server, self.user, self.password, self.database)
