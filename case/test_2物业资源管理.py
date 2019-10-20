@@ -16,6 +16,10 @@ class Test_BascinfoCase(baseCase.BaseCase,unittest.TestCase):
      fenZuName='长虹道馆'
      louYuName='长虹1栋'
      carParking='长虹停车场'
+     houseCode='UItest-2019'
+     unitName='UItest1单元'
+     carCode='UItest-10001'
+     adverCode='adver-1001'
      @classmethod
      def setUpClass(cls):
           url = cls.bc.readUrl("物业资源管理")
@@ -75,6 +79,10 @@ class Test_BascinfoCase(baseCase.BaseCase,unittest.TestCase):
      def test_21deleteLouYu(self):
           self.lp.delete_louYu(2,self.louYuName)
           #self.lp.assertTure("","删除成功")
+     #导出楼宇数据
+     def test_21expotExecl(self):
+          self.lp.excport_excle(2)
+          self.lp.assertTure("导出Excel","导出Excel")
      # 选择管理区
      def test_22guanliqu(self):
           self.lp.get_treeSerch(self.guanliqu)
@@ -102,17 +110,84 @@ class Test_BascinfoCase(baseCase.BaseCase,unittest.TestCase):
      #删除停车场数据
      def test_28deleteCarPark(self):
           self.lp.delete_carParking(3,self.carParking)
+     #导出停车场数据
+     def test_29expotExecl(self):
+          self.lp.excport_excle(3)
+          self.lp.assertTure("导出Excel","导出Excel")
      #资源树上搜索楼宇
-     def test_29selectLouYu(self):
-          self.lp.get_treeSerch(self.louyu)
+     #def test_29selectLouYu(self):
+          #self.lp.get_treeSerch(self.louyu)
      # 新建房间
+     def test_30addHouse(self):
+          self.lp.add_house("",2,2,self.houseCode,60)
      # 编辑房间
-     # 查看房间
+     def test_31editHouse(self):
+          self.lp.edit_house(self.houseCode)
      # 查看房间，业主管理
-     # 查看房间，成员管理
-     # 编辑房间
-     # 删除房间
+     def test_32ownerHouse(self):
+          self.lp.look_houseOwner(self.houseCode)
+          self.lp.assertTure("查看页面title","房间详情")
 
+     # 查看房间，成员管理
+     def test_33memberHouse(self):
+          self.lp.look_houseMember(self.houseCode)
+          self.lp.assertTure("查看页面title","房间详情")
+     # 查看房间
+     def test_34lookHouse(self):
+          self.lp.look_house(self.houseCode)
+          self.lp.assertTure("查看页面title", "房间详情")
+          self.lp.click_pageDetails()
+     # 删除房间
+     def test_35deleteHouse(self):
+          self.lp.delete_house(self.houseCode)
+     # 导出房间数据
+     def test_36expotExecl(self):
+          self.lp.excport_excle(4)
+          self.lp.assertTure("导出Excel", "导出Excel")
+     #添加单元
+     def test_37addUnit(self):
+          self.lp.add_unit("",self.unitName,50)
+     #编辑单元
+     def test_38edit(self):
+          self.lp.edit_unit(self.unitName)
+     #删除单元
+     def test_39deleteUnit(self):
+          self.lp.delete_unit(self.unitName)
+     #添加车位
+     def test_40addParkingLot(self):
+          self.lp.add_parkingLot("",self.carCode,25)
+     #编辑车位
+     def test_41editParkingLot(self):
+          self.lp.edit_parkingLot(self.carCode)
+     #绑定车位业主
+     def test_42binbingParkingLot(self):
+          self.lp.binding_parkingLot(self.carCode)
+     #查看车位
+     def test_43lookParkingLot(self):
+          self.lp.look_parkingLot(self.carCode)
+     #删除车位
+     def test_44deleteParkingLot(self):
+          self.lp.delete_parkingLot(self.carCode)
+     #d导出车位数据
+     def test_45expotExecl(self):
+          self.lp.excport_excle(5)
+          self.lp.assertTure("导出Excel", "导出Excel")
+     #添加广告为
+     def test_46addAdverising(self):
+          self.lp.add_adverising("",self.adverCode,2)
+     #编辑广告位
+     def test_47editAdverising(self):
+          self.lp.edit_adverising(self.adverCode)
+     #查看广告位
+     def test_47lookAdverising(self):
+          self.lp.look_adverising(self.adverCode)
+     #删除广告位
+     def test_48deleteAdverising(self):
+          self.lp.delete_adverising(self.adverCode)
+     # d导出车位数据
+     def test_49expotExecl(self):
+          self.lp.excport_excle(6)
+          self.lp.assertTure("导出Excel", "导出Excel")
      @classmethod
      def tearDownClass(cls):
           cls.lp.quet()

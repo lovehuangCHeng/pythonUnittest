@@ -46,6 +46,9 @@ class BascinfoPage(BaseDriver.BascPage):
      def click_divCancel(self):
           self.click("分组取消")
 
+     '''
+          楼宇页面的元素
+     '''
 
      #点击添加楼宇
      def click_louYu(self):
@@ -72,6 +75,9 @@ class BascinfoPage(BaseDriver.BascPage):
      def click_louYuLook(self):
           self.click("楼宇查看")
 
+     '''
+     停车场页面的元素
+     '''
      #关闭查看页面
      def click_pageDetails(self):
           self.click("查看页面关闭按钮")
@@ -79,7 +85,6 @@ class BascinfoPage(BaseDriver.BascPage):
      #点击添加停车场
      def click_tingCheChang(self):
           self.click("添加停车场")
-
      #停车场名称
      def sendkey_tingCheChangName(self,name):
           self.sendkeys("停车场名称",name)
@@ -124,6 +129,9 @@ class BascinfoPage(BaseDriver.BascPage):
      #点击楼宇列表中第一个checkbox
      def click_wuyeCheckbox(self):
           self.click("4个页面checkbox")
+     '''
+     房间页面的元素
+     '''
      #点击房间列表中第一个checkbox
      def click_fangJianCheckbox(self):
           self.click("房间CheckBox")
@@ -134,7 +142,7 @@ class BascinfoPage(BaseDriver.BascPage):
      def click_houseAdd(self):
           self.click("添加房间")
      # 点击编辑房间
-     def click_houesEdit(self):
+     def click_houseEdit(self):
           self.click("房间编辑")
      #点击房间删除
      def click_houseDelete(self):
@@ -148,11 +156,111 @@ class BascinfoPage(BaseDriver.BascPage):
      #点击当前居住成员
      def click_houseMember(self):
           self.click("当前居住成员")
-     #
+     #点击成员管理
+     def click_houseBtnMember(self):
+          self.click("成员管理")
+     #输入房间楼层
+     def sendkey_houseFloor(self,floor):
+          self.sendkeys("房间楼层",floor)
+     #输入房间序号，正整数
+     def sendkey_houseRank(self,rank):
+          self.sendkeys("房间序号",rank)
+     #输入房间代码
+     def sendkey_houseCode(self,code):
+          self.sendkeys("房间代码",code)
+     #输入房间建筑面积
+     def sendkey_houseArea(self,area):
+          self.sendkeys("房间建筑面积",area)
+     #点击房间类型
+     def click_houseType(self):
+          self.click("房间类型")
+     #选择房间类型为办公
+     def click_houseTpyeValue(self):
+          self.click("办公")
+     #点击房间状态
+     def click_houseStatus(self):
+          self.click("房间状态")
+     #选择房间状态为接访的房间
+     def click_houseStatusValue(self):
+          self.click("交房")
 
+     '''
+     单元的元素
+     '''
+     #点击添加单元
+     def click_unitAdd(self):
+          self.click("添加单元")
+     #输入单元名称
+     def sendkey_unitName(self,name):
+          self.sendkeys("单元名称",name)
+     #输入单元序号
+     def sendkey_unitCode(self,code):
+          self.sendkeys("单元序号",code)
+     #编辑单元
+     def click_unitEdit(self):
+          self.click("编辑单元")
+     #删除单元
+     def click_unitDelete(self):
+          self.click("删除单元")
 
+     '''
+     车位页面的元素
+     '''
+     #点击添加车位
+     def click_parkingLotAdd(self):
+          self.click("添加车位")
+     #点击车位查看
+     def click_parkingLotLook(self):
+          self.click("车位查看")
+     #点击车位编辑
+     def click_parkingLotEdit(self):
+          self.click("车位编辑")
+     #点击车位删除
+     def click_parkingLotDelete(self):
+          self.click("车位删除")
+     #点击绑定业主
+     def click_parkingLotOwern(self):
+          self.click("绑定业主")
+     #输入车位号
+     def sendkey_parkingLotCode(self,code):
+          self.sendkeys("车位号",code)
+     #输入车位面积
+     def sendkey_parkingLotArea(self,area):
+          self.sendkeys("车位面积",area)
+     #点击出售日期
+     def click_parkingLotTime(self):
+          self.click("出售日期")
+     #点击今天
+     def click_TimeTody(self):
+          self.click("今天")
+     '''
+     广告位页面的元素
+     '''
+     #点击添加广告位
+     def click_adverisingAdd(self):
+          self.click("添加广告位")
+     #点击编辑广告位
+     def click_adverisingEdit(self):
+          self.click("编辑广告位")
+     #点击删除广告位
+     def click_adverisingDelete(self):
+          self.click("删除广告位")
+     #点击查看广告位
+     def click_adverisingLook(self):
+          self.click("查看广告位")
+     #输入广告位号
+     def sendkey_adverisingCode(self,code):
+          self.sendkeys("广告位号",code)
+     #s输入广告位楼层
+     def sendkey_adverisingFloor(self,floor):
+          self.sendkeys("广告位楼层",floor)
+     #选择广告位，已出租
+     def click_adverisingLease(self):
+          self.click("已出租")
 
-
+     # 选择广告位，未出租
+     def click_adverisingUnLease(self):
+          self.click("未出租")
 
 
 
