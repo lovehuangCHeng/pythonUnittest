@@ -1,0 +1,42 @@
+{
+  "2eebf2719e7459d7a7ec6bab7eb3b2a8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aa2e6cb840d13f98",
+      "reportUrl" : "http://localhost:8080/jenkins/job/python_ui_auto/4/allure/#testresult/aa2e6cb840d13f98",
+      "status" : "passed",
+      "time" : {
+        "start" : 1570497701094,
+        "stop" : 1570497712832,
+        "duration" : 11738
+      }
+    } ]
+  },
+  "572f9ab3759ceca23fe33c037d62125a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c780a147f12139ac",
+      "reportUrl" : "http://localhost:8080/jenkins/job/python_ui_auto/4/allure/#testresult/c780a147f12139ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1570497716178,
+        "stop" : 1570497721331,
+        "duration" : 5153
+      }
+    } ]
+  }
+}
