@@ -30,13 +30,13 @@ class BaseCase(object):
           url = urlbase + urlc
           return  url
 
-     def reddatasql(self,num):
+     def reddatasql(self,key,num):
           '''
           读取数据库中的数据,管理区
           :param num:
           '''
           od=odbc.odbcHandl.SqlData()
-          val=od.guanliqu(num)
+          val=od.selectSql(key,num)
           return val
 #BaseCase=BaseCase()
 # # print(BaseCase.reddatasql(0))

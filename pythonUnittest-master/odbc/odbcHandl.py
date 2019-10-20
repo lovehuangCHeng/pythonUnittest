@@ -1,6 +1,6 @@
 import odbc.odbcBasc
 class SqlData(odbc.odbcBasc.odbc):
-    def guanliqu(self,num):
+    def selectSql(self,key,num):
         '''
         根据查询的结果获取元素，取第几个元素就输入几-1
         :param num:
@@ -8,9 +8,10 @@ class SqlData(odbc.odbcBasc.odbc):
         :return:
         '''
         self.connect()
-        tt=self.select('guanliqusql')
+        tt=self.select(key)
         self.close()
         return tt[num]
+
     def openmodels(self):
         '''
         需要在数据库中先执行存储过程，有这个名称后才能进行调用,
