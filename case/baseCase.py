@@ -1,22 +1,22 @@
 #coding=utf-8
 import configparser
 import odbc.odbcHandl
-from selenium import  webdriver
+from case import  conftest
 class BaseCase(object):
-     guanliqu = "三千院"
      def getDriver(self):
           '''
           获取webdriver
-          :return:
+          D:/GitHub/pythonUnittest-master
           '''
-          driver = webdriver.Chrome()
+          driver = conftest.browser()
           return driver
      '''
-     读取填写的数据文件
+     读取数据配置文件。
      '''
      def readData(self,key):
           conf = configparser.ConfigParser()
-          conf.read("./config/testData.ini",encoding="utf-8-sig")
+          #conf.read("./config/testData.ini",encoding="utf-8-sig")
+          conf.read("D:/GitHub/pythonUnittest-master/config/testData.ini", encoding="utf-8-sig")
           value=conf.get("DATA",key)
           return value
      '''
@@ -24,20 +24,23 @@ class BaseCase(object):
      '''
      def readUrl(self,key):
           conf = configparser.ConfigParser()
-          conf.read("./config/url.ini",encoding="utf-8-sig")
-          url = conf.get("TESTURL", key)
+          conf.read("D:/GitHub/pythonUnittest-master/config/url.ini",encoding="utf-8-sig")
+          urlc = conf.get('TESTURL', key)
+          urlbase = conf.get('TESTURL', 'basicurl')
+          url = urlbase + urlc
           return  url
 
-     def reddatasql(self,sqlkey,num):
+     def reddatasql(self,key,num):
           '''
-          读取数据库中的数据
-          :param sqlkey:
+          读取数据库中的数据,管理区
           :param num:
-          :return:
           '''
           od=odbc.odbcHandl.SqlData()
-          val=od.guanliqu(sqlkey,num)
+          val=od.selectSql(key,num)
           return val
+#BaseCase=BaseCase()
+# # print(BaseCase.reddatasql(0))
+#print(BaseCase.readUrl('首页'))
 
 
 
