@@ -1,6 +1,0 @@
-Message: invalid selector: Unable to locate an element with the xpath expression --//div[@class='ant-tabs-nav-scroll']/div/div/div because of the following error:
-TypeError: Failed to execute 'evaluate' on 'Document': The result is not a node set, and therefore cannot be converted to the desired type.
-  (Session info: chrome=77.0.3865.90)
-  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.17134 x86_64)
-
-编辑楼宇失败！！！

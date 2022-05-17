@@ -3,7 +3,7 @@ import  unittest
 import HTMLTestRunner
 
 #用例路径
-case_path="./case/"
+case_path= "case/"
 # #报告存放路径
 def all_case():
      discover=unittest.defaultTestLoader.discover(case_path,pattern="test*.py")
@@ -12,7 +12,7 @@ def all_case():
      print(discover)
      return sutie
 def discover_case():
-     case_dir = "./case/"
+     case_dir = "case/"
      # 待执行用例的目录
      testcase = unittest.TestSuite()
      discover = unittest.defaultTestLoader.discover(case_dir, pattern="test*.py", top_level_dir=None)
@@ -28,7 +28,7 @@ def discover_case():
 
 if __name__=="__main__":
      #runner=unittest.TextTestRunner()
-     fp=open("./case/result.html","wb")
+     fp=open("case/result.html", "wb")
      runner=HTMLTestRunner.HTMLTestRunner(stream=fp,title=u'这个测试报告',description=u'这是测试用例')
      runner.run(discover_case())
      fp.close()

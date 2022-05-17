@@ -1,14 +1,14 @@
 #coding=utf-8
 import configparser
-import odbc.odbcHandl
-from case import  conftest
+import util.odbcHandl
+from selenium import  webdriver
 class BaseCase(object):
      def getDriver(self):
           '''
           获取webdriver
           D:/GitHub/pythonUnittest-master
           '''
-          driver = conftest.browser()
+          driver = webdriver.Chrome()
           return driver
      '''
      读取数据配置文件。
@@ -35,7 +35,7 @@ class BaseCase(object):
           读取数据库中的数据,管理区
           :param num:
           '''
-          od=odbc.odbcHandl.SqlData()
+          od= util.odbcHandl.SqlData()
           val=od.selectSql(key,num)
           return val
 #BaseCase=BaseCase()

@@ -1,25 +1,9 @@
 #coding=utf-8
-import unittest
-from handle import handleWuYeScores
-from case import baseCase
-import allure
-import pytest
 
-@allure.feature('物业资源管理')
-class Test_BascinfoCase(baseCase.BaseCase,unittest.TestCase):
-     bc = baseCase.BaseCase()
-     driver = bc.getDriver()
-     lp = handleWuYeScores.louyu(driver)
-     guanliqu=bc.reddatasql("guanliqusql",0)[0]
-     louyu=bc.reddatasql("louyu",0)[0]
-     parking=bc.reddatasql("tingchangc",0)[0]
-     fenZuName='长虹道馆'
-     louYuName='长虹1栋'
-     carParking='长虹停车场'
-     houseCode='UItest-2019'
-     unitName='UItest1单元'
-     carCode='UItest-10001'
-     adverCode='adver-1001'
+from case import baseCase
+import  unittest
+
+class Test_BascinfoCase(baseCase.BaseCase, unittest.TestCase):
      @classmethod
      def setUpClass(cls):
           url = cls.bc.readUrl("物业资源管理")
@@ -191,7 +175,6 @@ class Test_BascinfoCase(baseCase.BaseCase,unittest.TestCase):
      @classmethod
      def tearDownClass(cls):
           cls.lp.quet()
-if __name__ =="__main__":
-     pytest.main(['-s', '-q', '--alluredir', './report/xml'])
+
 
 

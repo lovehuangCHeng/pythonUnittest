@@ -1,5 +1,0 @@
-Message: no such element: Unable to locate element: {"method":"class name","selector":"ant-btn-sm"}
-  (Session info: chrome=77.0.3865.90)
-  (Driver info: chromedriver=2.39.562718 (9a2698cba08cf5a471a29d30c8b3e12becabb0e9),platform=Windows NT 10.0.17134 x86_64)
-
-查询分组失败！！！

@@ -1,5 +1,5 @@
 #coding=utf-8
-from page import wuyesorcesPage,szguPage
+from page import wuyesorcesPage
 from time import sleep
 
 class louyu(wuyesorcesPage.BascinfoPage):

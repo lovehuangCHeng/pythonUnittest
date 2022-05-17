@@ -1,10 +1,8 @@
 #coding=utf-8
-from page import BaseDriver
-from time import  sleep
-class SZGLpage(BaseDriver.BascPage):
-    def __init__(self, driver):
-        super(SZGLpage, self).__init__(driver)
-
+from util import utils
+from config.elements.基础信息 import 房产档案 as fl
+from time import sleep
+class SZGLpage(utils.BascUtils):
     '''
          获取输入框类型，为下拉框的下拉列表中的值
     '''

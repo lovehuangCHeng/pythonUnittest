@@ -1,19 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8e9c1533-66cc-4a91-9b77-c88ee0995a7b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/InterFacesTest/api地址/baseUrl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InterFacesTest/api地址/customerlistAPI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InterFacesTest/api地址/收费管理.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InterFacesTest/util/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/dataconfig/bascConfig.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/elements/OA系统/OAXpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/elements/OA系统/活动人事.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/elements/geturl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/elements/基础信息/仪表管理.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/elements/基础信息/客户管理.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/elements/基础信息/房产档案.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/elements/客户服务/报事报修.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/elements/收费管理/交款Xpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/elements/收费管理/催费Xpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/elements/收费管理/历史Xpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/elements/收费管理/应收Xpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/elements/收费管理/抄表Xpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/elements/收费管理/收费Xpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/elements/收费管理/票据Xpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/elements/收费管理/经营Xpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/elements/收费管理/退款Xpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/elements/收费管理/零头Xpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/elements/收费管理/预存Xpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/elements/物业管理/保洁巡查.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/elements/物业管理/保洁管理.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/elements/物业管理/品质巡查Xpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/elements/物业管理/巡更管理.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/elements/物业管理/绿化管理Xpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/elements/租赁管理/代收货款Xpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/elements/租赁管理/合同列表Xpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/elements/系统管理/系统管理Xpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/elements/财务管理/年度报表Xpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/elements/财务管理/收支管理Xpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/elements/财务管理/月报表Xpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/elements/财务管理/欠费报表Xpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/elements/财务管理/费用减免统计Xpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/elements/财务管理/费用报表Xpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/baseCase.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/baseCase.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/test_2物业资源管理.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/test_2物业资源管理.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/cookies.txt" beforeDir="false" afterPath="$PROJECT_DIR$/config/cookies.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/element.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/element.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/sql.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/sql.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handle/handleWuYeScores.py" beforeDir="false" afterPath="$PROJECT_DIR$/handle/handleWuYeScores.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/odbc/odbcHandl.py" beforeDir="false" afterPath="$PROJECT_DIR$/odbc/odbcHandl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/wuyesorcesPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/wuyesorcesPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterFacesTest/DataConfig/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterFacesTest/api地址/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterFacesTest/InUtils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterFacesTest/util/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterFacesTest/InUtils/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterFacesTest/customerlistAPI.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterFacesTest/testDemo3.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterFacesTest/testDemo3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterFacesTest/testdemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterFacesTest/testdemo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UItest/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UItest/case/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/dataconfig/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UItest/case/baseCase.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/baseCase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UItest/case/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UItest/case/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/case/result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UItest/case/test_1logincase.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/test_1logincase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UItest/case/test_2物业资源管理.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/test_2物业资源管理.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UItest/handle/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/elements/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UItest/handle/handleWuYeScores.py" beforeDir="false" afterPath="$PROJECT_DIR$/handle/handleWuYeScores.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UItest/page/BaseDriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/BaseDriver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UItest/page/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/handle/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UItest/page/loginpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/loginpage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UItest/page/szguPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/szguPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UItest/page/wuyesorcesPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/wuyesorcesPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UItest/run_all_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_all_case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/PC端接口.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bascConfig.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/cookies.txt" beforeDir="false" afterPath="$PROJECT_DIR$/config/dataconfig/cookies.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/element.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/header.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/dataconfig/header.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/sql.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/testData.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/url.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/odbc/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/odbc/odbcBasc.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/odbcBasc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/odbc/odbcHandl.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/odbcHandl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/opre_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterFacesTest/util/opre_json.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/test.py" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/venv/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,127 +92,18 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/pythonUnittest_master$pytest_in_test_2_py.coverage" NAME="pytest in test_2物业资源管理.py Coverage Results" MODIFIED="1571376812922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/pythonUnittest_master$baseCase.coverage" NAME="baseCase Coverage Results" MODIFIED="1569726365322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/pythonUnittest$testDemo2.coverage" NAME="testDemo2 Coverage Results" MODIFIED="1638349393640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterFacesTest" />
+    <SUITE FILE_PATH="coverage/pythonUnittest_master$opre_json.coverage" NAME="opre_json Coverage Results" MODIFIED="1569655580480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
+    <SUITE FILE_PATH="coverage/pythonUnittest_master$BaseDriver.coverage" NAME="BaseDriver Coverage Results" MODIFIED="1569568116992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page" />
+    <SUITE FILE_PATH="coverage/pythonUnittest$testdemo.coverage" NAME="testdemo Coverage Results" MODIFIED="1638352758607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterFacesTest" />
+    <SUITE FILE_PATH="coverage/pythonUnittest$testDemo3.coverage" NAME="testDemo3 Coverage Results" MODIFIED="1638498716741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterFacesTest" />
+    <SUITE FILE_PATH="coverage/pythonUnittest$pytest_in_testDemo3_py.coverage" NAME="pytest in testDemo3.py Coverage Results" MODIFIED="1638503419102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterFacesTest" />
     <SUITE FILE_PATH="coverage/pythonUnittest_master$pytest_in_test_1logincase_py.coverage" NAME="pytest in test_1logincase.py Coverage Results" MODIFIED="1571366088545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/pythonUnittest_master$odbcBasc.coverage" NAME="odbcBasc Coverage Results" MODIFIED="1569563081301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/odbc" />
     <SUITE FILE_PATH="coverage/pythonUnittest_master$pytest_in_test_2louyu_py.coverage" NAME="pytest in test_2louyu.py Coverage Results" MODIFIED="1569684566961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
-    <SUITE FILE_PATH="coverage/pythonUnittest_master$opre_json.coverage" NAME="opre_json Coverage Results" MODIFIED="1569655580480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
     <SUITE FILE_PATH="coverage/pythonUnittest_master$odbcHandl.coverage" NAME="odbcHandl Coverage Results" MODIFIED="1569659485992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/odbc" />
-    <SUITE FILE_PATH="coverage/pythonUnittest_master$BaseDriver.coverage" NAME="BaseDriver Coverage Results" MODIFIED="1569568116992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page" />
+    <SUITE FILE_PATH="coverage/pythonUnittest$pytest_in_test_Demo3_py.coverage" NAME="pytest in test_Demo3.py Coverage Results" MODIFIED="1638351233329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterFacesTest" />
     <SUITE FILE_PATH="coverage/pythonUnittest_master$run_all_case.coverage" NAME="run_all_case Coverage Results" MODIFIED="1569843611888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="306212654">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.24" value="1" />
-          <entry key="project.open.time.31" value="1" />
-          <entry key="project.open.time.34" value="1" />
-          <entry key="project.open.time.39" value="1" />
-          <entry key="project.open.time.43" value="1" />
-          <entry key="project.opened" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="html" value="1" />
-          <entry key="ini" value="36" />
-          <entry key="json" value="2" />
-          <entry key="py" value="216" />
-          <entry key="txt" value="8" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="HTML" value="1" />
-          <entry key="Ini" value="36" />
-          <entry key="JSON" value="2" />
-          <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="216" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="29" />
-          <entry key="ini" value="451" />
-          <entry key="py" value="9029" />
-          <entry key="txt" value="17" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Ini" value="451" />
-          <entry key="PLAIN_TEXT" value="46" />
-          <entry key="Python" value="9029" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="1444178639">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.18" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="py" value="5071" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Python" value="5071" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="py" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Python" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/case/test_2物业资源管理.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="e#14#29#0" expanded="true" />
-                <marker date="1571572278962" expanded="true" signature="2373:2464" ph="..." />
-                <marker date="1571572278962" expanded="true" signature="3703:3763" ph="..." />
-                <marker date="1571572278962" expanded="true" signature="3802:3853" ph="..." />
-                <marker date="1571572278962" expanded="true" signature="3898:4004" ph="..." />
-                <marker date="1571572278962" expanded="true" signature="3997:3998" ph="..." />
-                <marker date="1571572278962" expanded="true" signature="4050:4156" ph="..." />
-                <marker date="1571572278962" expanded="true" signature="4328:4334" ph="..." />
-                <marker date="1571572278962" expanded="true" signature="4375:4428" ph="..." />
-                <marker date="1571572278962" expanded="true" signature="4598:4652" ph="..." />
-                <marker date="1571572278962" expanded="true" signature="4685:4734" ph="..." />
-                <marker date="1571572278962" expanded="true" signature="4773:4824" ph="..." />
-                <marker date="1571572278962" expanded="true" signature="4866:4925" ph="..." />
-                <marker date="1571572278962" expanded="true" signature="4968:5022" ph="..." />
-                <marker date="1571572278962" expanded="true" signature="5070:5127" ph="..." />
-                <marker date="1571572278962" expanded="true" signature="5170:5224" ph="..." />
-                <marker date="1571572278962" expanded="true" signature="5269:5459" ph="..." />
-                <marker date="1571572278962" expanded="true" signature="5502:5562" ph="..." />
-                <marker date="1571572278962" expanded="true" signature="5606:5662" ph="..." />
-                <marker date="1571572278962" expanded="true" signature="5706:5762" ph="..." />
-                <marker date="1571572278962" expanded="true" signature="5808:5866" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -159,18 +120,35 @@
       <find>导出</find>
     </findStrings>
   </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/odbc/sql.ini" />
         <option value="$PROJECT_DIR$/config/modelstext.json" />
-        <option value="$PROJECT_DIR$/util/opre_json.py" />
         <option value="$PROJECT_DIR$/handle/handle.py" />
         <option value="$PROJECT_DIR$/case/test_2louyu.py" />
-        <option value="$PROJECT_DIR$/config/testData.ini" />
         <option value="$PROJECT_DIR$/page/loginpage.py" />
         <option value="$PROJECT_DIR$/config/cookies.txt" />
         <option value="$PROJECT_DIR$/case/conftest.py" />
@@ -180,13 +158,26 @@
         <option value="$PROJECT_DIR$/config/url.ini" />
         <option value="$PROJECT_DIR$/page/BaseDriver.py" />
         <option value="$PROJECT_DIR$/util/test.py" />
-        <option value="$PROJECT_DIR$/config/sql.ini" />
         <option value="$PROJECT_DIR$/odbc/odbcHandl.py" />
         <option value="$PROJECT_DIR$/case/baseCase.py" />
         <option value="$PROJECT_DIR$/page/wuyesorcesPage.py" />
         <option value="$PROJECT_DIR$/config/element.ini" />
         <option value="$PROJECT_DIR$/handle/handleWuYeScores.py" />
         <option value="$PROJECT_DIR$/case/test_2物业资源管理.py" />
+        <option value="$PROJECT_DIR$/util/opre_json.py" />
+        <option value="$PROJECT_DIR$/config/bascConfig.txt" />
+        <option value="$PROJECT_DIR$/config/sql.ini" />
+        <option value="$PROJECT_DIR$/config/testData.ini" />
+        <option value="$PROJECT_DIR$/InterFacesTest/InUtils/utils.py" />
+        <option value="$PROJECT_DIR$/config/header.json" />
+        <option value="$PROJECT_DIR$/InterFacesTest/DataConfig/PC端接口.ini" />
+        <option value="$PROJECT_DIR$/UItest/case/test_1logincase.py" />
+        <option value="$PROJECT_DIR$/InterFacesTest/testDemo2.py" />
+        <option value="$PROJECT_DIR$/InterFacesTest/test_Demo3.py" />
+        <option value="$PROJECT_DIR$/config/PC端接口.ini" />
+        <option value="$PROJECT_DIR$/InterFacesTest/customerlistAPI.py" />
+        <option value="$PROJECT_DIR$/InterFacesTest/testdemo.py" />
+        <option value="$PROJECT_DIR$/InterFacesTest/testDemo3.py" />
       </list>
     </option>
   </component>
@@ -196,13 +187,19 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-48" />
-    <option name="y" value="135" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="384" />
+    <option name="y" value="40" />
     <option name="width" value="1346" />
     <option name="height" value="698" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="24DMAcyZ4m9hMNeduantQOFx7ZL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -215,11 +212,6 @@
               <item name="pythonUnittest" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythonUnittest" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="pythonUnittest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonUnittest" type="462c0819:PsiDirectoryNode" />
-              <item name="page" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -227,29 +219,37 @@
       <pane id="Scope" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/config/elements" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\pythonCode\pythonUnittest\config\elements" />
+      <recent name="F:\pythonCode\pythonUnittest\InterFacesTest\DataConfig" />
+      <recent name="F:\pythonCode\pythonUnittest\config" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\GitHub\pythonUnittest-master\config" />
+      <recent name="E:\pythonCode\pythonUnittest\config\dataconfig" />
+      <recent name="E:\pythonCode\pythonUnittest\util" />
+      <recent name="E:\pythonCode\pythonUnittest\InterFacesTest" />
+      <recent name="E:\pythonCode\pythonUnittest" />
+      <recent name="E:\pythonCode\pythonUnittest\api地址" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python tests.pytest in test_2物业资源管理.py">
-    <configuration name="baseCase" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.loginpage">
+    <configuration name="customerlistAPI (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -257,12 +257,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/api地址" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/case/baseCase.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api地址/customerlistAPI.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -271,7 +271,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="odbcHandl" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="loginpage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -279,12 +279,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/odbc" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/page" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/odbc/odbcHandl.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/page/loginpage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -293,7 +293,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="run_all_case" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -301,18 +301,35 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/page" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_all_case.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/page/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in testDemo3.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InterFacesTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/InterFacesTest/testDemo3.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest in test_1logincase.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -326,44 +343,30 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/case/test_1logincase.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_2物业资源管理.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/case/test_2物业资源管理.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.baseCase" />
+      <item itemvalue="Python.customerlistAPI (1)" />
+      <item itemvalue="Python tests.pytest in testDemo3.py" />
+      <item itemvalue="Python.test" />
       <item itemvalue="Python tests.pytest in test_1logincase.py" />
-      <item itemvalue="Python.odbcHandl" />
-      <item itemvalue="Python tests.pytest in test_2物业资源管理.py" />
-      <item itemvalue="Python.run_all_case" />
+      <item itemvalue="Python.loginpage" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_2物业资源管理.py" />
+        <item itemvalue="Python.loginpage" />
         <item itemvalue="Python tests.pytest in test_1logincase.py" />
-        <item itemvalue="Python.run_all_case" />
-        <item itemvalue="Python.baseCase" />
-        <item itemvalue="Python.odbcHandl" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python tests.pytest in testDemo3.py" />
+        <item itemvalue="Python.customerlistAPI (1)" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -374,6 +377,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547185474362</updated>
+      <workItem from="1643160563560" duration="1853000" />
+      <workItem from="1643444909817" duration="594000" />
+      <workItem from="1643445521151" duration="767000" />
+      <workItem from="1644215984699" duration="12707000" />
+      <workItem from="1650945496572" duration="8073000" />
+      <workItem from="1652753914021" duration="15691000" />
     </task>
     <task id="LOCAL-00001" summary="提交已调试号的代码">
       <created>1571541629045</created>
@@ -386,35 +395,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_2物业资源管理_py - 2019.10.09 at 22h 20m 47s.xml">
-      <configuration name="pytest in test_2物业资源管理.py" configurationId="tests" />
+    <history-entry file="pytest_in_testDemo3_py - 2021.12.03 at 10h 37m 02s.xml">
+      <configuration name="pytest in testDemo3.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_2物业资源管理_py - 2019.10.09 at 22h 24m 47s.xml">
-      <configuration name="pytest in test_2物业资源管理.py" configurationId="tests" />
+    <history-entry file="pytest_in_testDemo3_py - 2021.12.03 at 10h 37m 39s.xml">
+      <configuration name="pytest in testDemo3.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_2物业资源管理_py - 2019.10.09 at 22h 48m 01s.xml">
-      <configuration name="pytest in test_2物业资源管理.py" configurationId="tests" />
+    <history-entry file="pytest_in_testDemo3_py - 2021.12.03 at 10h 39m 42s.xml">
+      <configuration name="pytest in testDemo3.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_2物业资源管理_py - 2019.10.09 at 22h 49m 40s.xml">
-      <configuration name="pytest in test_2物业资源管理.py" configurationId="tests" />
+    <history-entry file="pytest_in_testDemo3_py - 2021.12.03 at 10h 41m 58s.xml">
+      <configuration name="pytest in testDemo3.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_1logincase_py - 2019.10.18 at 10h 35m 20s.xml">
-      <configuration name="pytest in test_1logincase.py" configurationId="tests" />
+    <history-entry file="pytest_in_testDemo3_py - 2021.12.03 at 10h 51m 38s.xml">
+      <configuration name="pytest in testDemo3.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_2物业资源管理_py - 2019.10.18 at 10h 42m 27s.xml">
-      <configuration name="pytest in test_2物业资源管理.py" configurationId="tests" />
+    <history-entry file="pytest_in_testDemo3_py - 2021.12.03 at 10h 52m 17s.xml">
+      <configuration name="pytest in testDemo3.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_2物业资源管理_py - 2019.10.18 at 12h 15m 30s.xml">
-      <configuration name="pytest in test_2物业资源管理.py" configurationId="tests" />
+    <history-entry file="pytest_in_testDemo3_py - 2021.12.03 at 10h 53m 03s.xml">
+      <configuration name="pytest in testDemo3.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_2物业资源管理_py - 2019.10.18 at 12h 36m 20s.xml">
-      <configuration name="pytest in test_2物业资源管理.py" configurationId="tests" />
+    <history-entry file="pytest_in_testDemo3_py - 2021.12.03 at 10h 54m 50s.xml">
+      <configuration name="pytest in testDemo3.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_2物业资源管理_py - 2019.10.18 at 13h 30m 06s.xml">
-      <configuration name="pytest in test_2物业资源管理.py" configurationId="tests" />
+    <history-entry file="pytest_in_testDemo3_py - 2021.12.03 at 10h 55m 09s.xml">
+      <configuration name="pytest in testDemo3.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_2物业资源管理_py - 2019.10.18 at 13h 35m 16s.xml">
-      <configuration name="pytest in test_2物业资源管理.py" configurationId="tests" />
+    <history-entry file="pytest_in_testDemo3_py - 2021.12.03 at 11h 50m 21s.xml">
+      <configuration name="pytest in testDemo3.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -427,16 +436,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="384" y="40" width="1346" height="698" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18869936" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2037325" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5670436" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.14316703" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5661605" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32956383" />
@@ -451,13 +459,11 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="提交已调试号的代码" />
@@ -470,6 +476,16 @@
       </configuration>
     </watches-manager>
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pythonUnittest$customerlistAPI.coverage" NAME="customerlistAPI Coverage Results" MODIFIED="1644221288256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterFacesTest" />
+    <SUITE FILE_PATH="coverage/pythonUnittest$pytest_in_test_1logincase_py.coverage" NAME="pytest in test_1logincase.py Coverage Results" MODIFIED="1652776871678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/pythonUnittest$loginpage.coverage" NAME="loginpage Coverage Results" MODIFIED="1652777889169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page" />
+    <SUITE FILE_PATH="coverage/pythonUnittest$pytest_in_testDemo3_py.coverage" NAME="pytest in testDemo3.py Coverage Results" MODIFIED="1644225032006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterFacesTest" />
+    <SUITE FILE_PATH="coverage/pythonUnittest$testDemo3.coverage" NAME="testDemo3 Coverage Results" MODIFIED="1643445758184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterFacesTest" />
+    <SUITE FILE_PATH="coverage/pythonUnittest$customerlistAPI__1_.coverage" NAME="customerlistAPI (1) Coverage Results" MODIFIED="1644225009500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api地址" />
+    <SUITE FILE_PATH="coverage/pythonUnittest$test.coverage" NAME="test Coverage Results" MODIFIED="1652767805519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page" />
+    <SUITE FILE_PATH="coverage/pythonUnittest$utils.coverage" NAME="utils Coverage Results" MODIFIED="1644222257272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
+  </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
       <expression>
@@ -480,52 +496,8 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/case/test_3customer.py" />
-    <entry file="file://D:/python/Lib/site-packages/_pytest/capture.py" />
-    <entry file="file://D:/python/Lib/site-packages/selenium/webdriver/chrome/webdriver.py" />
-    <entry file="file://$PROJECT_DIR$/config/bascConfig.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/test_5收支管理.py" />
-    <entry file="file://$PROJECT_DIR$/case/result.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/cookies.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/loginpage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run_all_case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/python/Lib/platform.py" />
-    <entry file="file://D:/python/Lib/urllib/parse.py" />
-    <entry file="file://D:/python/Lib/site-packages/urllib3/util/url.py" />
     <entry file="file://D:/python/Lib/site-packages/urllib3/poolmanager.py" />
     <entry file="file://D:/python/Lib/site-packages/urllib3/request.py" />
-    <entry file="file://$PROJECT_DIR$/util/opre_json.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/python/Lib/site-packages/_pytest/main.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -565,62 +537,18 @@
     <entry file="file://D:/python/Lib/site-packages/selenium/webdriver/remote/utils.py" />
     <entry file="file://D:/python/Lib/site-packages/selenium/webdriver/remote/remote_connection.py" />
     <entry file="file://D:/python/Lib/site-packages/selenium/webdriver/remote/webdriver.py" />
-    <entry file="file://$PROJECT_DIR$/case/conftest.py">
+    <entry file="file://$PROJECT_DIR$/UItest/case/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#15#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://D:/python/Lib/site-packages/selenium/webdriver/remote/webelement.py" />
-    <entry file="file://$PROJECT_DIR$/page/BaseDriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="56" column="41" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="41" />
-          <folding>
-            <element signature="e#15#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/url.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/odbc/odbcBasc.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="15" column="36" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/case/test_1logincase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/testData.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="10" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/sql.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="10" selection-start-line="5" selection-end-line="5" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -631,77 +559,179 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/handle/handleWuYeScores.py">
+    <entry file="file://$PROJECT_DIR$/util/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="842">
-          <caret line="341" column="18" lean-forward="true" selection-start-line="341" selection-start-column="18" selection-end-line="341" selection-end-column="18" />
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/sql.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../oldCode/WUYE-Interface-Test/config/header.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/opre_json.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UItest/case/baseCase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UItest/handle/handleWuYeScores.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="766">
+          <caret line="341" column="18" selection-start-line="341" selection-start-column="18" selection-end-line="341" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UItest/page/loginpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UItest/page/szguPage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UItest/page/wuyesorcesPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4620">
+          <caret line="210" column="26" selection-start-line="210" selection-start-column="22" selection-end-line="210" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/testData.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/url.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/bascConfig.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/cookies.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="44" selection-start-column="44" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/header.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UItest/case/test_1logincase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="26" selection-start-line="26" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UItest/case/test_2物业资源管理.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1496">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterFacesTest/customerlistAPI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterFacesTest/InUtils/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
-            <marker date="1571570531208" expanded="true" signature="5716:5932" ph="..." />
-            <marker date="1571570531208" expanded="true" signature="7896:8070" ph="..." />
-            <marker date="1571570531208" expanded="true" signature="8130:8136" ph="..." />
-            <marker date="1571570531208" expanded="true" signature="8973:9147" ph="..." />
-            <marker date="1571570531208" expanded="true" signature="9390:9564" ph="..." />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/wuyesorcesPage.py">
+    <entry file="file://$PROJECT_DIR$/UItest/page/BaseDriver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="210" column="26" selection-start-line="210" selection-start-column="22" selection-end-line="210" selection-end-column="26" />
+        <state relative-caret-position="2596">
+          <caret line="123" column="5" selection-start-line="123" selection-start-column="5" selection-end-line="129" selection-end-column="39" />
           <folding>
-            <element signature="e#14#41#0" expanded="true" />
-            <marker date="1571569670254" expanded="true" signature="4194:4229" ph="..." />
-            <marker date="1571569670254" expanded="true" signature="4978:5013" ph="..." />
-            <marker date="1571569670254" expanded="true" signature="5225:5260" ph="..." />
-            <marker date="1571569670254" expanded="true" signature="5298:5334" ph="..." />
+            <element signature="e#15#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/PC端接口.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/element.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="19" column="7" selection-start-line="19" selection-end-line="19" selection-end-column="7" />
+        <state relative-caret-position="110">
+          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/case/baseCase.py">
+    <entry file="file://$PROJECT_DIR$/InterFacesTest/testDemo3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+        <state relative-caret-position="141">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
           <folding>
-            <element signature="e#14#33#0" expanded="true" />
+            <element signature="e#40#55#0" expanded="true" />
+            <marker date="1638504013349" expanded="true" signature="248:253" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/case/test_2物业资源管理.py">
+    <entry file="file://$PROJECT_DIR$/InterFacesTest/testDemo2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="418">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
           <folding>
-            <element signature="e#14#29#0" expanded="true" />
-            <marker date="1571572278962" expanded="true" signature="2373:2464" ph="..." />
-            <marker date="1571572278962" expanded="true" signature="3703:3763" ph="..." />
-            <marker date="1571572278962" expanded="true" signature="3802:3853" ph="..." />
-            <marker date="1571572278962" expanded="true" signature="3898:4004" ph="..." />
-            <marker date="1571572278962" expanded="true" signature="3997:3998" ph="..." />
-            <marker date="1571572278962" expanded="true" signature="4050:4156" ph="..." />
-            <marker date="1571572278962" expanded="true" signature="4328:4334" ph="..." />
-            <marker date="1571572278962" expanded="true" signature="4375:4428" ph="..." />
-            <marker date="1571572278962" expanded="true" signature="4598:4652" ph="..." />
-            <marker date="1571572278962" expanded="true" signature="4685:4734" ph="..." />
-            <marker date="1571572278962" expanded="true" signature="4773:4824" ph="..." />
-            <marker date="1571572278962" expanded="true" signature="4866:4925" ph="..." />
-            <marker date="1571572278962" expanded="true" signature="4968:5022" ph="..." />
-            <marker date="1571572278962" expanded="true" signature="5070:5127" ph="..." />
-            <marker date="1571572278962" expanded="true" signature="5170:5224" ph="..." />
-            <marker date="1571572278962" expanded="true" signature="5269:5459" ph="..." />
-            <marker date="1571572278962" expanded="true" signature="5502:5562" ph="..." />
-            <marker date="1571572278962" expanded="true" signature="5606:5662" ph="..." />
-            <marker date="1571572278962" expanded="true" signature="5706:5762" ph="..." />
-            <marker date="1571572278962" expanded="true" signature="5808:5866" ph="..." />
+            <element signature="e#40#55#0" expanded="true" />
+            <marker date="1638349418624" expanded="true" signature="162:180" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InterFacesTest/testdemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="91" column="41" selection-start-line="91" selection-start-column="41" selection-end-line="91" selection-end-column="41" />
+          <folding>
+            <element signature="e#16#32#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,26 +1,23 @@
 #coding=utf-8
-
 import time
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.common.action_chains import ActionChains
+from selenium import  webdriver
 import configparser
 import json
-class BascPage():
+class BascUtils():
      '''
      构造方法，初始化driver
      '''
-     def __init__(self,driver):
-          self.driver = driver
-          self.driver.implicitly_wait(10)
+     def __init__(self):
+          self.driver = webdriver.Chrome()
+          self.driver.implicitly_wait(15)
      '''
-          通过下面七种方法找元素的方法，并返回元素
+          通过下面七种方法找元素的方法，并返回元素 是一个element对象。
      '''
-     def get_element(self,key):
-          config = configparser.ConfigParser()
-          config.read("./config/element.ini",encoding="utf-8-sig")
-          vak = config.get("ELE", key)
-          by = vak.split("----")[0]
-          by_value = vak.split("----")[1]
+     def find_element(self, key):
+          by = key.split("==")[0]
+          by_value = key.split("==")[1]
           try:
                if by == "id":
                     return self.driver.find_element_by_id(by_value)
@@ -41,38 +38,59 @@ class BascPage():
                print("无法找到元素"+key)
 
      '''
+     读取数据配置文件。
+     '''
+     def readData(self,key):
+          conf = configparser.ConfigParser()
+          conf.read("../config/dataconfig/bascConfig.ini",encoding="utf-8-sig")
+          #conf.read("D:/GitHub/pythonUnittest-master/config/testData.ini", encoding="utf-8-sig")
+          value=conf.get("DATA",key)
+          return value
+
+     '''
      输入框的输入方法，先清除输入框的内容，再输入值
      '''
      def sendkeys(self, key, value):
-          element = self.get_element(key)
+          element = self.find_element(key)
           try:
                element.clear()
           except Exception as e:
                print(e)
+          time.sleep(1)
           element.send_keys(value)
      '''
      点击的方法
      '''
      def click(self,key):
-          element = self.get_element(key)
+          element = self.find_element(key)
+          time.sleep(1)
           element.click()
      '''
      定位下拉框，获取下拉框的的元素，通过元素text值定位
      '''
      def selector(self, key, text):
-          element = Select(self.get_element(key))
+          element = Select(self.find_element(key))
+          time.sleep(1)
           element.select_by_visible_text(text)
 
      '''
-          定义打开 url 的方法,打开浏览器
+          定义打开url 的方法,打开浏览器
      '''
-     def get(self, url):
-          self.driver.geturl(url)
+     def geturl(self, url):
+          self.driver.get(url)
+          time.sleep(2)
           try:
                self.driver.maximize_window()
           except:
                print("窗口不用最大化了")
-
+     '''
+     登录成功后，处理提示框
+     '''
+     def closetabl(self,key):
+          element =self.find_element(key)
+          if element :
+               time.sleep(1)
+               element.click()
 
      '''
      定义script方法，用于执行js脚本，范围执行结果
@@ -84,6 +102,7 @@ class BascPage():
      关闭浏览器
      '''
      def quet(self):
+          time.sleep(1)
           self.driver.quit()
      '''
          删除cookie 的方法
@@ -97,23 +116,25 @@ class BascPage():
      def saveCookis(self):
           for cookie in self.driver.get_cookies():
                if (cookie['name'] == "nova_pms_auth_Default"):
-                    with open('D:/GitHub/pythonUnittest-master/config/cookies.txt', 'w') as fp:
+                    with open('../config/dataconfig/cookies.txt', 'w') as fp:
                          # ss=cookie['value']
                          json.dump(cookie, fp)
+                         time.sleep(1)
      '''
           从文件中读取cookie
      '''
      def setCookie(self):
-          with open('D:/GitHub/pythonUnittest-master/config/cookies.txt', 'r', encoding="utf-8-sig") as fp:
+          with open('../config/dataconfig/cookies.txt', 'r', encoding="utf-8-sig") as fp:
                # s = fp.read()
                cookies = json.load(fp)
                #print(cookies)
                self.driver.add_cookie(cookies)
+               time.sleep(1)
      '''
         切换ifram 窗口
      '''
      def switch_fram(self, key):
-          fram = self.get_element(key)
+          fram = self.find_element(key)
           time.sleep(2)
           self.driver.switch_to.frame(fram)
      '''
@@ -126,13 +147,14 @@ class BascPage():
      '''
      def assertTure(self,key,exceptasser):
           time.sleep(2)
-          element=self.get_element(key).text
+          element=self.find_element(key).text
           assert exceptasser in element
      '''
      刷新浏览器的方法
      '''
      def refresh(self):
           self.driver.refresh()
+
 
      '''
      右击  context_click()

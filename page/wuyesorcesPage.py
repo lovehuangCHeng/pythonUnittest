@@ -1,6 +1,7 @@
 #coding=utf-8
 from page import BaseDriver
-from time import  sleep
+
+
 class BascinfoPage(BaseDriver.BascPage):
      def __init__(self,driver):
           super(BascinfoPage,self).__init__(driver)
