@@ -17,7 +17,6 @@ basicURL='http://10.10.120.171:8081'
 仪表类型=basicURL+'/#/BasicInformationManage/MeterManage/MeterType'
 房间仪表管理=basicURL+'/#/BasicInformationManage/HouseMeter'
 公摊仪表管理=basicURL+'/#/BasicInformationManage/PublicMeter'
-
 ##客户服务
 #房屋交付管理
 接房登记=basicURL+'/#/CustomerServiceManagement/ReceiveHouse'
@@ -37,15 +36,11 @@ basicURL='http://10.10.120.171:8081'
 发送欠费消息=basicURL+'/#/Nova.Pms.SMS/ArrearsShortMessage/Index'
 发送公告消息=basicURL+'/#/Nova.Pms.SMS/Announcement/Index'
 短信服务商设置=basicURL+'/#/Nova.Pms.SMS/MessageAccount/Index'
-
-
 ##消息提醒
 消息提醒设置=basicURL+'/#/oaSystem/messageAlertSetting/messageReceptionList'
 站内消息=basicURL+'/#/oaSystem/messageAlertSetting/allmessagemanagelist'
 接受岗位设置=basicURL+'/#/oaSystem/messageAlertSetting/postManageList'
 接受用户组设置=basicURL+'/#/oaSystem/messageAlertSetting/userGroupManageList'
-
-
 ##物业管理
 #保安消防
 安防事件记录=basicURL+'/#/securityFireManage/securityEventsList'
@@ -90,8 +85,6 @@ basicURL='http://10.10.120.171:8081'
 品质巡查计划=basicURL+'/#/PropertyManage/QualityInspectionManage/Plan'
 品质巡查任务=basicURL+'/#/PropertyManage/QualityInspectionManage/Task'
 品质巡查问题=basicURL+'/#/PropertyManage/QualityInspectionManage/Problem'
-
-
 ##物料管理
 供应商=basicURL+'/#/Nova.Pms.MaterialManagement/Supplier/Index'
 物料清单=basicURL+'/#/Nova.Pms.MaterialManagement/Material/Index'
@@ -99,7 +92,6 @@ basicURL='http://10.10.120.171:8081'
 领用出库=basicURL+'/#/Nova.Pms.MaterialManagement/StockOut/Index'
 维修领料=basicURL+'/#/Nova.Pms.MaterialManagement/RepairMaterial/Index'
 库存查询=basicURL+'/#/inventoryQueryList'
-
 ##系统管理
 #系统设置
 图标版权设置=basicURL+'/#/Nova.Pms.SystemManagement/CustomLogo/Index'
@@ -119,8 +111,6 @@ basicURL='http://10.10.120.171:8081'
 基本设置=basicURL+'/#/financeSetting'
 科目配置=basicURL+'/#/financeItemSetting'
 生成凭证=basicURL+'/#/voucherList'
-
-
 ##OA系统
 #办公管理
 公告管理=basicURL+'/#/oaSystem/officeManage/noticeManagement/noticeList'
@@ -145,9 +135,6 @@ basicURL='http://10.10.120.171:8081'
 我的排班=basicURL+'/#/oaSystem/hrManage/WorkShiftMyShift'
 排班计划=basicURL+'/#/oaSystem/hrManage/WorkShiftPlan'
 排班设置=basicURL+'/#/oaSystem/hrManage/WorkShiftSetting'
-
-
-
 ##出入管理
 #门禁管理
 门禁设备=basicURL+'/#/DoorAccessManage/Access-PointDevice'
@@ -162,8 +149,6 @@ basicURL='http://10.10.120.171:8081'
 车位状态查询=basicURL+'/#/Nova.Pms.ParkingManagement/CarParkingPlaceReport/Index'
 车位租赁状态图=basicURL+'/#/parkingPlaceManageList'
 车位租赁配置=basicURL+'/#/Nova.Pms.ParkingManagement/ParkingWarningSetting/Index'
-
-
 ##财务管理
 #收支管理
 收支科目=basicURL+'/#/incomeExpenseManage/incomeExpenseAccountList'
@@ -234,8 +219,6 @@ basicURL='http://10.10.120.171:8081'
 #委托经营
 委托合同=basicURL+'/#/delegateContractManage/delegateContractList'
 返租台账=basicURL+'/#/delegateContractManage/delegateContractReport'
-
-
 ##收费管理
 #收费参数设置
 收费项目定义=basicURL+'/#/chargeItemTypeManage'

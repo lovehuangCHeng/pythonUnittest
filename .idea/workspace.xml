@@ -5,84 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e9c1533-66cc-4a91-9b77-c88ee0995a7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/InterFacesTest/api地址/baseUrl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InterFacesTest/api地址/customerlistAPI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InterFacesTest/api地址/收费管理.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/InterFacesTest/util/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/dataconfig/bascConfig.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/elements/OA系统/OAXpath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/elements/OA系统/活动人事.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/elements/geturl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/elements/基础信息/仪表管理.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/elements/基础信息/客户管理.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/elements/基础信息/房产档案.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/elements/客户服务/报事报修.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/elements/收费管理/交款Xpath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/elements/收费管理/催费Xpath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/elements/收费管理/历史Xpath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/elements/收费管理/应收Xpath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/elements/收费管理/抄表Xpath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/elements/收费管理/收费Xpath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/elements/收费管理/票据Xpath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/elements/收费管理/经营Xpath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/elements/收费管理/退款Xpath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/elements/收费管理/零头Xpath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/elements/收费管理/预存Xpath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/elements/物业管理/保洁巡查.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/elements/物业管理/保洁管理.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/elements/物业管理/品质巡查Xpath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/elements/物业管理/巡更管理.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/elements/物业管理/绿化管理Xpath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/elements/租赁管理/代收货款Xpath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/elements/租赁管理/合同列表Xpath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/elements/系统管理/系统管理Xpath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/elements/财务管理/年度报表Xpath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/elements/财务管理/收支管理Xpath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/elements/财务管理/月报表Xpath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/elements/财务管理/欠费报表Xpath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/elements/财务管理/费用减免统计Xpath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/elements/财务管理/费用报表Xpath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterFacesTest/DataConfig/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterFacesTest/api地址/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterFacesTest/InUtils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterFacesTest/util/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterFacesTest/InUtils/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterFacesTest/customerlistAPI.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterFacesTest/testDemo3.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterFacesTest/testDemo3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterFacesTest/testdemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterFacesTest/testdemo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UItest/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UItest/case/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/dataconfig/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UItest/case/baseCase.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/baseCase.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UItest/case/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UItest/case/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/case/result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UItest/case/test_1logincase.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/test_1logincase.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UItest/case/test_2物业资源管理.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/test_2物业资源管理.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UItest/handle/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/elements/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UItest/handle/handleWuYeScores.py" beforeDir="false" afterPath="$PROJECT_DIR$/handle/handleWuYeScores.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UItest/page/BaseDriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/BaseDriver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UItest/page/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/handle/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UItest/page/loginpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/loginpage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UItest/page/szguPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/szguPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UItest/page/wuyesorcesPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/wuyesorcesPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UItest/run_all_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_all_case.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/PC端接口.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bascConfig.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/cookies.txt" beforeDir="false" afterPath="$PROJECT_DIR$/config/dataconfig/cookies.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/element.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/header.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/dataconfig/header.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/sql.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/testData.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/url.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/odbc/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/odbc/odbcBasc.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/odbcBasc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/odbc/odbcHandl.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/odbcHandl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/opre_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/InterFacesTest/util/opre_json.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/elements/OA系统/OAXpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/elements/OA系统/OAXpath.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/elements/OA系统/活动人事.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/elements/OA系统/活动人事.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/elements/geturl.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/elements/geturl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/elements/基础信息/仪表管理.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/elements/基础信息/仪表管理.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/elements/基础信息/客户管理.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/elements/基础信息/客户管理.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/elements/基础信息/房产档案.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/elements/基础信息/房产档案.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/elements/客户服务/报事报修.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/elements/客户服务/报事报修.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/elements/收费管理/交款Xpath.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/elements/收费管理/催费Xpath.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/elements/收费管理/历史Xpath.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/elements/收费管理/抄表Xpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/elements/收费管理/抄表Xpath.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/elements/收费管理/收费Xpath.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/elements/收费管理/经营Xpath.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/elements/收费管理/零头Xpath.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/elements/收费管理/预存Xpath.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/elements/财务管理/年度报表Xpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/elements/财务管理/年度报表Xpath.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/elements/财务管理/收支管理Xpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/elements/财务管理/收支管理Xpath.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/elements/财务管理/月报表Xpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/elements/财务管理/月报表Xpath.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/elements/财务管理/欠费报表Xpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/elements/财务管理/欠费报表Xpath.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/elements/财务管理/费用减免统计Xpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/elements/财务管理/费用减免统计Xpath.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/elements/财务管理/费用报表Xpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/elements/财务管理/费用报表Xpath.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +171,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/config/elements" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -351,10 +295,10 @@
     </configuration>
     <list>
       <item itemvalue="Python.customerlistAPI (1)" />
-      <item itemvalue="Python tests.pytest in testDemo3.py" />
       <item itemvalue="Python.test" />
-      <item itemvalue="Python tests.pytest in test_1logincase.py" />
       <item itemvalue="Python.loginpage" />
+      <item itemvalue="Python tests.pytest in testDemo3.py" />
+      <item itemvalue="Python tests.pytest in test_1logincase.py" />
     </list>
     <recent_temporary>
       <list>
@@ -383,6 +327,7 @@
       <workItem from="1644215984699" duration="12707000" />
       <workItem from="1650945496572" duration="8073000" />
       <workItem from="1652753914021" duration="15691000" />
+      <workItem from="1652841573483" duration="1246000" />
     </task>
     <task id="LOCAL-00001" summary="提交已调试号的代码">
       <created>1571541629045</created>
