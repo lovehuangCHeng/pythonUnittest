@@ -1,5 +1,5 @@
 # Can be used in the test data like ${MyObject()} or ${MyObject(1)}
-basicURL='http://10.10.120.171:8081'
+basicURL='http://callback.paas.wuyezhijia.cn'
 首页=basicURL+'/#/home'
 ##基础信息
 #房产管理

@@ -5,28 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e9c1533-66cc-4a91-9b77-c88ee0995a7b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/handle/basc/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/handle/basc/客户管理.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/basc/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/basc/客户管理.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/elements/OA系统/OAXpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/elements/OA系统/OAXpath.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/elements/OA系统/活动人事.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/elements/OA系统/活动人事.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/baseCase.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/baseCase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/test_1logincase.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/test_1logincase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/test_2物业资源管理.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/test_2客户档案.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/dataconfig/cookies.txt" beforeDir="false" afterPath="$PROJECT_DIR$/config/dataconfig/cookies.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/elements/geturl.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/elements/geturl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/elements/基础信息/仪表管理.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/elements/基础信息/仪表管理.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/elements/基础信息/客户管理.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/elements/基础信息/客户管理.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/elements/基础信息/房产档案.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/elements/基础信息/房产档案.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/elements/客户服务/报事报修.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/elements/客户服务/报事报修.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/elements/收费管理/交款Xpath.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/elements/收费管理/催费Xpath.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/elements/收费管理/历史Xpath.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/elements/收费管理/抄表Xpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/elements/收费管理/抄表Xpath.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/elements/收费管理/收费Xpath.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/elements/收费管理/经营Xpath.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/elements/收费管理/零头Xpath.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/elements/收费管理/预存Xpath.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/elements/财务管理/年度报表Xpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/elements/财务管理/年度报表Xpath.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/elements/财务管理/收支管理Xpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/elements/财务管理/收支管理Xpath.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/elements/财务管理/月报表Xpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/elements/财务管理/月报表Xpath.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/elements/财务管理/欠费报表Xpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/elements/财务管理/欠费报表Xpath.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/elements/财务管理/费用减免统计Xpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/elements/财务管理/费用减免统计Xpath.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/elements/财务管理/费用报表Xpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/elements/财务管理/费用报表Xpath.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handle/handleWuYeScores.py" beforeDir="false" afterPath="$PROJECT_DIR$/handle/handleWuYeScores.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/BaseDriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/BaseDriver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/loginpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/loginpage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/szguPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/szguPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/wuyesorcesPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/wuyesorcesPage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +185,7 @@
       <recent name="E:\pythonCode\pythonUnittest\api地址" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.loginpage">
+  <component name="RunManager" selected="Python tests.pytest in test_1logincase.py">
     <configuration name="customerlistAPI (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -259,7 +252,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in testDemo3.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in E:/pythonCode/pythonUnittestMater/InterFacesTest/testDemo3.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -297,15 +290,15 @@
       <item itemvalue="Python.customerlistAPI (1)" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.loginpage" />
-      <item itemvalue="Python tests.pytest in testDemo3.py" />
       <item itemvalue="Python tests.pytest in test_1logincase.py" />
+      <item itemvalue="Python tests.pytest in E:/pythonCode/pythonUnittestMater/InterFacesTest/testDemo3.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.loginpage" />
         <item itemvalue="Python tests.pytest in test_1logincase.py" />
+        <item itemvalue="Python.loginpage" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python tests.pytest in testDemo3.py" />
+        <item itemvalue="Python tests.pytest in E:/pythonCode/pythonUnittestMater/InterFacesTest/testDemo3.py" />
         <item itemvalue="Python.customerlistAPI (1)" />
       </list>
     </recent_temporary>
@@ -327,7 +320,10 @@
       <workItem from="1644215984699" duration="12707000" />
       <workItem from="1650945496572" duration="8073000" />
       <workItem from="1652753914021" duration="15691000" />
-      <workItem from="1652841573483" duration="1246000" />
+      <workItem from="1652841573483" duration="1848000" />
+      <workItem from="1653033243720" duration="850000" />
+      <workItem from="1653362847140" duration="4991000" />
+      <workItem from="1653641497833" duration="1554000" />
     </task>
     <task id="LOCAL-00001" summary="提交已调试号的代码">
       <created>1571541629045</created>
@@ -429,6 +425,7 @@
     <SUITE FILE_PATH="coverage/pythonUnittest$testDemo3.coverage" NAME="testDemo3 Coverage Results" MODIFIED="1643445758184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterFacesTest" />
     <SUITE FILE_PATH="coverage/pythonUnittest$customerlistAPI__1_.coverage" NAME="customerlistAPI (1) Coverage Results" MODIFIED="1644225009500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api地址" />
     <SUITE FILE_PATH="coverage/pythonUnittest$test.coverage" NAME="test Coverage Results" MODIFIED="1652767805519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page" />
+    <SUITE FILE_PATH="coverage/pythonUnittestMater$pytest_in_test_1logincase_py.coverage" NAME="pytest in test_1logincase.py Coverage Results" MODIFIED="1653642924273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
     <SUITE FILE_PATH="coverage/pythonUnittest$utils.coverage" NAME="utils Coverage Results" MODIFIED="1644222257272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
   </component>
   <component name="debuggerHistoryManager">

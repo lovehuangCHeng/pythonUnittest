@@ -1,10 +1,11 @@
 #coding=utf-8
-from page import BaseDriver
+from util import utils
+from config.elements.基础信息 import 客户管理 as khgl
+from config.elements.基础信息 import 房产档案 as fl
+from config.elements.基础信息 import 仪表管理 as yb
 
+class BascinfoPage(utils.BascUtils):
 
-class BascinfoPage(BaseDriver.BascPage):
-     def __init__(self,driver):
-          super(BascinfoPage,self).__init__(driver)
      #获取物业资源树搜索框
      def sendkeys_wuYeTree(self,guanliqu):
           self.sendkeys('物业资源搜索框',guanliqu)

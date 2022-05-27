@@ -1,19 +1,10 @@
 #coding=utf-8
 from page import wuyesorcesPage
 from time import sleep
-
-class louyu(wuyesorcesPage.BascinfoPage):
-     def __init__(self,driver):
-          super(louyu,self).__init__(driver)
-     '''
-     重新加载url
-     '''
-     def switch_url(self,url):
-          self.switch_default()
-          sleep(1)
-          self.get(url)
-          sleep(1)
-          self.switch_fram("iframe")
+from config.elements import  geturl
+class louyuHandle(wuyesorcesPage.BascinfoPage):
+     khda_url = geturl.客户档案
+     wyzy_url = geturl.物业资源管理
      '''
      物业资源管理树，搜索当前查询的数据，并点击这个查找的数据。
      '''

@@ -1,6 +1,5 @@
 #coding=utf-8
 from util import utils
-from config.elements.基础信息 import 房产档案 as fl
 from time import sleep
 class SZGLpage(utils.BascUtils):
     '''

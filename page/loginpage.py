@@ -3,6 +3,7 @@ from util import utils
 from config.elements.基础信息 import 房产档案 as fl
 from config.elements import  geturl
 class LoginPage(utils.BascUtils):
+     url=geturl.首页
      '''
      获取用户名输入框，并输入值
      '''
@@ -19,14 +20,23 @@ class LoginPage(utils.BascUtils):
      def click_logbutton(self):
           self.click(fl.立即登录)
      '''
-          登录的方法
+          登录成功的方法
       '''
      def login(self,username,password):
           # self.geturl(geturl.首页)
           self.senkeys_user(username)
           self.sendkeys_password(password)
           self.click_logbutton()
-          self.closetabl(fl.提示框关闭)
+          try:
+               self.closetabl(fl.提示框关闭)
+          except Exception as e:
+               print(e)
+     '''
+     断言登录成功
+     '''
+     def assertLoginTrue(self):
+          self.assertTure(fl.设置首页,'设置首页')
+
 
 # loginPage =LoginPage()
 # loginPage.login('testing','123456')
