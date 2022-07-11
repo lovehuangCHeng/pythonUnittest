@@ -28,7 +28,7 @@ class LoginPage(utils.BascUtils):
           self.sendkeys_password(password)
           self.click_logbutton()
           try:
-               self.closetabl(fl.提示框关闭)
+               self.closetabl()
           except Exception as e:
                print(e)
      '''

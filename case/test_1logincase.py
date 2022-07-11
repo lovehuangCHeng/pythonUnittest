@@ -12,9 +12,9 @@ class test_LoginCase(unittest.TestCase):
           cls.lp.geturl(cls.url)
      def test_login(self):
           self.lp.login(self.username,self.password)
-          sleep(2)
+          #sleep(2)
           self.lp.assertLoginTrue()
-          sleep(2)
+          #sleep(2)
           self.lp.saveCookis()
 
      @classmethod

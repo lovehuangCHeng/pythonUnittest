@@ -2,8 +2,12 @@
 import time
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
 from selenium import  webdriver
+from selenium.webdriver.support.wait import WebDriverWait
 import configparser
+from selenium.webdriver.common.keys import Keys
 import json
 class BascUtils():
      '''
@@ -15,7 +19,7 @@ class BascUtils():
      '''
           通过下面七种方法找元素的方法，并返回元素 是一个element对象。
      '''
-     def find_element(self, key):
+     def find_element_By(self, key):
           by = key.split("==")[0]
           by_value = key.split("==")[1]
           try:
@@ -38,6 +42,41 @@ class BascUtils():
                print("无法找到元素"+key)
 
      '''
+               通过下面七种方法找元素的方法，并返回元素 是一个element对象。
+               wait.until(EC.presence_of_element_located((By.ID,'KW')))
+     '''
+
+     def find_element(self, key):
+          by = key.split("==")[0]
+          by_value = key.split("==")[1]
+          wait = WebDriverWait(self.driver, 15, 1)
+          try:
+               if by == "id":
+                    wait.until(EC.presence_of_element_located((By.ID,by_value)))
+                    return self.driver.find_element(By.ID,by_value)
+               elif by == "name":
+                    wait.until(EC.presence_of_element_located((By.NAME,by_value)))
+                    return self.driver.find_element(By.NAME,by_value)
+               elif by == "className":
+                    wait.until(EC.presence_of_element_located((By.CLASS_NAME,by_value)))
+                    return self.driver.find_element(By.CLASS_NAME,by_value)
+               elif by == "cssSelector":
+                    wait.until(EC.presence_of_element_located((By.CSS_SELECTOR,by_value)))
+                    return self.driver.find_element(By.CSS_SELECTOR,by_value)
+               elif by == "xpath":
+                    wait.until(EC.presence_of_element_located((By.XPATH,by_value)))
+                    return self.driver.find_element(By.XPATH,by_value)
+               elif by == "textLink":
+                    wait.until(EC.presence_of_element_located((By.LINK_TEXT,by_value)))
+                    return self.driver.find_element(By.LINK_TEXT,by_value)
+               elif by == "tagName":
+                    wait.until(EC.presence_of_element_located((By.TAG_NAME,by_value)))
+                    return self.driver.find_element(By.TAG_NAME,by_value)
+          except Exception as e:
+               print(e)
+               print("无法找到元素" + key)
+
+     '''
      读取数据配置文件。
      '''
      def readData(self,key):
@@ -52,25 +91,26 @@ class BascUtils():
      '''
      def sendkeys(self, key, value):
           element = self.find_element(key)
+          element.clear()
           try:
-               element.clear()
+               #清除输入框的内容
+               element.send_keys(Keys.CONTROL,'a')
+               element.send_keys(Keys.BACK_SPACE)
           except Exception as e:
                print(e)
-          time.sleep(1)
           element.send_keys(value)
      '''
      点击的方法
      '''
      def click(self,key):
           element = self.find_element(key)
-          time.sleep(1)
           element.click()
      '''
      定位下拉框，获取下拉框的的元素，通过元素text值定位
      '''
      def selector(self, key, text):
           element = Select(self.find_element(key))
-          time.sleep(1)
+
           element.select_by_visible_text(text)
 
      '''
@@ -86,10 +126,9 @@ class BascUtils():
      '''
      登录成功后，处理提示框
      '''
-     def closetabl(self,key):
-          element =self.find_element(key)
+     def closetabl(self):
+          element =self.driver.find_element_by_xpath("//button[@aria-label='Close']")
           if element :
-               time.sleep(1)
                element.click()
 
      '''
@@ -104,6 +143,8 @@ class BascUtils():
      def quet(self):
           time.sleep(1)
           self.driver.quit()
+
+
      '''
          删除cookie 的方法
      '''
@@ -119,17 +160,18 @@ class BascUtils():
                     with open('../config/dataconfig/cookies.txt', 'w') as fp:
                          # ss=cookie['value']
                          json.dump(cookie, fp)
+                         print('cookies yi bao cun ')
                          time.sleep(1)
      '''
           从文件中读取cookie
      '''
      def setCookie(self):
-          with open('../config/dataconfig/cookies.txt', 'r', encoding="utf-8-sig") as fp:
+          with open('../../config/dataconfig/cookies.txt','r') as fp:
                # s = fp.read()
                cookies = json.load(fp)
                #print(cookies)
                self.driver.add_cookie(cookies)
-               time.sleep(1)
+               time.sleep(3)
      '''
         切换ifram 窗口
      '''
@@ -194,3 +236,5 @@ class BascUtils():
      # def keys_ebter(self,element):
      #      element.send_keys(Keys.CONTROL.Enter)
 
+# c=BascUtils()
+# c.setCookie()
