@@ -1,23 +1,25 @@
 '''
 仪表类型 模块
 '''
-仪表类型新增="xpath==//div[@class='ListButton___2cfy4']/div/div/button[1]"
-仪表类型编辑="xpath==//div[@class='ListButton___2cfy4']/div/div/button[2]"
-仪表类型删除="xpath==//div[@class='ListButton___2cfy4']/div/div/button[3]"
+仪表类型新增="xpath==//button/span[text()='新 增']/.."
+仪表类型编辑="xpath==//a[text()='编辑']"
+仪表类型删除="xpath==//a[text()='删除']"
 仪表类型名称="id==name"
-仪表类型名称高="id==Name"
 计量单位="id==unit"
-仪表类型保存="xpath==//div[@class='ant-modal-footer']//button[2]"
-仪表类型取消="xpath==//div[@class='ant-modal-footer']//button[1]"
-仪表类型搜索框="xpath==//div[@class='ListButton___2cfy4']/div/div[2]/span/input"
-仪表类型搜索按钮="xpath==//div[@class='ListButton___2cfy4']/div/div[2]/span/span"
+仪表类型保存="xpath==//div[@class='ant-modal-footer']/button[2]"
+仪表类型取消="xpath==//div[@class='ant-modal-footer']/button[1]"
+仪表类型搜索框="xpath==//input[@placeholder='搜索...']"
+仪表类型高级搜索框="xpath==//span[@class='ant-legacy-form-item-children']/input"
+仪表类型搜索按钮="xpath==//button/span[@class='anticon anticon-search']/.."
 仪表类型列表数据="xpath==//tbody/tr[1]/td[2]"
-仪表类型高级搜索="xpath==//div[@class='ListButton___2cfy4']/div/div[2]/a"
-仪表类型高级搜索按钮="xpath==//div[@class='ant-card-body']//button[2]"
+仪表类型高级搜索="xpath==//a[text()='高级搜索']"
+仪表类型高级搜索按钮="xpath==//button/span[text()='搜 索']/.."
+仪表类型高级重置="xpath==//button/span[text()='重 置']/.."
 仪表类型确认删除="xpath==//div[@class='ant-popover-buttons']/button[2]"
 #断言
-更新仪表成功="xpath==//span[text()='更新仪表成功！']"
-创建仪表成功="xpath==//span[text()='创建仪表成功！']"
+更新仪表成功="xpath==//html/body/div[3]/div/div/div/div/div/span[2]"
+创建仪表成功="xpath==//html/body/div[3]/div/div/div/div/div/span[2]"
+仪表类型名称断言="xpath==//tbody/tr[1]/td[2]/span"
 删除仪表类型="xpath==//div[@class='ant-message-custom-content ant-message-success']/span"
 '''
 房间仪表管理和公摊仪表管理通用的按钮定位
