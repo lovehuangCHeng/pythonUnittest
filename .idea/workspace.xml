@@ -5,28 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e9c1533-66cc-4a91-9b77-c88ee0995a7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/case/基础信息/test_1客户管理.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handle/OA系统/办公管理.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handle/基础信息/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handle/基础信息/客户管理.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/oa系统/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/oa系统/办公管理.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/基础信息/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page/基础信息/客户档案.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/test_1logincase.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/test_1logincase.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/test_2客户档案.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/dataconfig/cookies.txt" beforeDir="false" afterPath="$PROJECT_DIR$/config/dataconfig/cookies.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/elements/OA系统/OAXpath.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/elements/OA系统/OAXpath.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/elements/geturl.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/elements/geturl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/elements/基础信息/客户管理.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/elements/基础信息/客户管理.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handle/basc/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/基础信息/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/handle/basc/客户管理.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/basc/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/handle/OA系统/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/basc/客户管理.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page/loginpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/page/loginpage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -339,7 +318,7 @@
       <workItem from="1656999415897" duration="11960000" />
       <workItem from="1657011504450" duration="4036000" />
       <workItem from="1657097866265" duration="4508000" />
-      <workItem from="1657262576546" duration="2643000" />
+      <workItem from="1657262576546" duration="3859000" />
     </task>
     <task id="LOCAL-00001" summary="提交已调试号的代码">
       <created>1571541629045</created>
