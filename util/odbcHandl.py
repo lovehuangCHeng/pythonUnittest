@@ -8,9 +8,24 @@ class SqlData(util.odbcBasc.odbc):
         :return:
         '''
         self.connect()
-        tt=self.select(key)
+        tt=self.selectData(key)
         self.close()
         return tt[num]
+    def updateSql(self,key):
+        self.connect()
+        self.UpdateData(key)
+        self.close()
+    # def selectSql2(self,key):
+    #     '''
+    #     根据查询的结果获取元素，取第几个元素就输入几-1
+    #     :param num:
+    #     :param sql: 配置文件中的key值
+    #     :return:
+    #     '''
+    #     self.connect()
+    #     tt=self.selectData(key)
+    #     print(tt)
+    #     self.close()
 
     def openmodels(self):
         '''
@@ -21,7 +36,9 @@ class SqlData(util.odbcBasc.odbc):
         self.execPROC('Nova.Pms.WeChat')
         self.close()
 
-
+# sql =SqlData()
+#
+# sql.updateSql('updtaeStaff')
 
 
 
