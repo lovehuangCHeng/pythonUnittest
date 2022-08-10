@@ -15,7 +15,7 @@ class BascUtils():
      '''
      def __init__(self):
           self.driver = webdriver.Chrome()
-          self.driver.implicitly_wait(15)
+          self.driver.implicitly_wait(10)
      '''
           通过下面七种方法找元素的方法，并返回元素 是一个element对象。
      '''
