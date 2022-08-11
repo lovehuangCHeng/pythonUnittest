@@ -17,9 +17,7 @@ class kuHuHandle(khda.KuHuPage):
         sleep(1)
 
     # 编辑客户
-    def kehu_edit(self,value):
-        sleep(1)
-        self.kehu_secrch(value)
+    def kehu_edit(self):
         sleep(1)
         self.click_editKeHu()
         sleep(1)

@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39768a7f-6142-4698-b5ec-f697c8f51222" name="变更" comment="仪表管理-仪表类型元素修改">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
+    <list default="true" id="8e9c1533-66cc-4a91-9b77-c88ee0995a7b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case/基础信息/test_1客户管理.py" beforeDir="false" afterPath="$PROJECT_DIR$/case/基础信息/test_1客户管理.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/dataconfig/cookies.txt" beforeDir="false" afterPath="$PROJECT_DIR$/config/dataconfig/cookies.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/elements/基础信息/客户管理.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/elements/基础信息/客户管理.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/elements/基础信息/房产档案.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/elements/基础信息/房产档案.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handle/基础信息/客户管理.py" beforeDir="false" afterPath="$PROJECT_DIR$/handle/基础信息/客户管理.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,13 +152,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/case/test_2客户档案.py" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+  </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="python" is-module-sdk="true">
@@ -178,8 +185,8 @@
       <recent name="E:\pythonCode\pythonUnittest\InterFacesTest" />
     </key>
   </component>
-  <component name="RunManager" selected="Python 测试.Python 测试 (test_2仪表管理.py 内)">
-    <configuration name="仪表管理" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest in test_1客户管理.py">
+    <configuration name="loginpage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -187,11 +194,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/handle/基础信息" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/page" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/handle/基础信息/仪表管理.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/page/loginpage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -200,21 +208,46 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python 测试 (test_2仪表管理.py 内)" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="utils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/utils.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in E:/pythonCode/pythonUnittestMater/case/test_kehu.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case/基础信息" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/case/基础信息/test_2仪表管理.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/case/test_kehu.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="test_2仪表管理.Test_BascinfoCase 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_1客户管理.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -223,53 +256,45 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_2仪表管理.Test_BascinfoCase&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/case/基础信息/test_1客户管理.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="test_2仪表管理.Test_BascinfoCase.test2_add_YiBiaoType 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_1logincase.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case/基础信息" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_2仪表管理.Test_BascinfoCase.test2_add_YiBiaoType&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_2仪表管理.Test_BascinfoCase.test2_sennior_secrch_YiBiaoType 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/case/基础信息" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_2仪表管理.Test_BascinfoCase.test2_sennior_secrch_YiBiaoType&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/case/test_1logincase.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.仪表管理" />
-      <item itemvalue="Python 测试.Python 测试 (test_2仪表管理.py 内)" />
-      <item itemvalue="Python 测试.test_2仪表管理.Test_BascinfoCase 的 Python 测试" />
-      <item itemvalue="Python 测试.test_2仪表管理.Test_BascinfoCase.test2_add_YiBiaoType 的 Python 测试" />
-      <item itemvalue="Python 测试.test_2仪表管理.Test_BascinfoCase.test2_sennior_secrch_YiBiaoType 的 Python 测试" />
+      <item itemvalue="Python.utils" />
+      <item itemvalue="Python.loginpage" />
+      <item itemvalue="Python tests.pytest in test_1logincase.py" />
+      <item itemvalue="Python tests.pytest in test_1客户管理.py" />
+      <item itemvalue="Python tests.pytest in E:/pythonCode/pythonUnittestMater/case/test_kehu.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python 测试.Python 测试 (test_2仪表管理.py 内)" />
-        <item itemvalue="Python 测试.test_2仪表管理.Test_BascinfoCase.test2_add_YiBiaoType 的 Python 测试" />
-        <item itemvalue="Python.仪表管理" />
-        <item itemvalue="Python 测试.test_2仪表管理.Test_BascinfoCase.test2_sennior_secrch_YiBiaoType 的 Python 测试" />
-        <item itemvalue="Python 测试.test_2仪表管理.Test_BascinfoCase 的 Python 测试" />
+        <item itemvalue="Python tests.pytest in test_1客户管理.py" />
+        <item itemvalue="Python tests.pytest in test_1logincase.py" />
+        <item itemvalue="Python tests.pytest in E:/pythonCode/pythonUnittestMater/case/test_kehu.py" />
+        <item itemvalue="Python.loginpage" />
+        <item itemvalue="Python.utils" />
       </list>
     </recent_temporary>
   </component>
@@ -279,7 +304,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="39768a7f-6142-4698-b5ec-f697c8f51222" name="变更" comment="仪表管理-仪表类型元素修改" />
+      <changelist id="8e9c1533-66cc-4a91-9b77-c88ee0995a7b" name="Default Changelist" comment="" />
       <created>1547185474362</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -299,7 +324,8 @@
       <workItem from="1656999415897" duration="11960000" />
       <workItem from="1657011504450" duration="4036000" />
       <workItem from="1657097866265" duration="4508000" />
-      <workItem from="1657262576546" duration="2643000" />
+      <workItem from="1657262576546" duration="3859000" />
+      <workItem from="1660120336035" duration="2153000" />
     </task>
     <task id="LOCAL-00001" summary="提交已调试号的代码">
       <created>1571541629045</created>
@@ -308,14 +334,7 @@
       <option name="project" value="LOCAL" />
       <updated>1571541629045</updated>
     </task>
-    <task id="LOCAL-00002" summary="仪表管理-仪表类型元素修改">
-      <created>1657621088711</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1657621088711</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -389,21 +408,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="提交已调试号的代码" />
-    <MESSAGE value="仪表管理-仪表类型元素修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="仪表管理-仪表类型元素修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交已调试号的代码" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -411,6 +418,25 @@
         <watch expression="self.cursor" language="Python" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pythonUnittestMater$utils.coverage" NAME="utils Coverage Results" MODIFIED="1657098055834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
+    <SUITE FILE_PATH="coverage/pythonUnittest$pytest_in_testDemo3_py.coverage" NAME="pytest in testDemo3.py Coverage Results" MODIFIED="1644225032006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterFacesTest" />
+    <SUITE FILE_PATH="coverage/pythonUnittest$testDemo3.coverage" NAME="testDemo3 Coverage Results" MODIFIED="1643445758184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterFacesTest" />
+    <SUITE FILE_PATH="coverage/pythonUnittestMater$loginpage.coverage" NAME="loginpage Coverage Results" MODIFIED="1657098388938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page" />
+    <SUITE FILE_PATH="coverage/pythonUnittestMater$pytest_in_test_2_py.coverage" NAME="pytest in test_1客户管理.py Coverage Results" MODIFIED="1657101688629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case/基础信息" />
+    <SUITE FILE_PATH="coverage/pythonUnittestMater$pytest_in_test_1_py.coverage" NAME="pytest in test_1客户管理.py Coverage Results" MODIFIED="1660122825601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case/基础信息" />
+    <SUITE FILE_PATH="coverage/pythonUnittest$customerlistAPI__1_.coverage" NAME="customerlistAPI (1) Coverage Results" MODIFIED="1644225009500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/api地址" />
+    <SUITE FILE_PATH="coverage/pythonUnittestMater$pytest_in_test_kehu_py.coverage" NAME="pytest in test_kehu.py Coverage Results" MODIFIED="1657098848771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/pythonUnittest$customerlistAPI.coverage" NAME="customerlistAPI Coverage Results" MODIFIED="1644221288256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/InterFacesTest" />
+    <SUITE FILE_PATH="coverage/pythonUnittest$pytest_in_test_1logincase_py.coverage" NAME="pytest in test_1logincase.py Coverage Results" MODIFIED="1652776871678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/pythonUnittest$loginpage.coverage" NAME="loginpage Coverage Results" MODIFIED="1652777889169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page" />
+    <SUITE FILE_PATH="coverage/pythonUnittestMater$pytest_in_test1__py.coverage" NAME="pytest in test1_客户管理.py Coverage Results" MODIFIED="1657015640470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case/基础信息" />
+    <SUITE FILE_PATH="coverage/pythonUnittestMater$testing.coverage" NAME="testing Coverage Results" MODIFIED="1657014171738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case/基础信息" />
+    <SUITE FILE_PATH="coverage/pythonUnittestMater$test1_.coverage" NAME="test1_客户管理 Coverage Results" MODIFIED="1657012742325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case/基础信息" />
+    <SUITE FILE_PATH="coverage/pythonUnittest$test.coverage" NAME="test Coverage Results" MODIFIED="1652767805519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page" />
+    <SUITE FILE_PATH="coverage/pythonUnittestMater$pytest_in_test_1logincase_py.coverage" NAME="pytest in test_1logincase.py Coverage Results" MODIFIED="1660121964216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/case" />
+    <SUITE FILE_PATH="coverage/pythonUnittest$utils.coverage" NAME="utils Coverage Results" MODIFIED="1644222257272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -422,9 +448,9 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../python/Lib/site-packages/urllib3/poolmanager.py" />
-    <entry file="file://$PROJECT_DIR$/../../python/Lib/site-packages/urllib3/request.py" />
-    <entry file="file://$PROJECT_DIR$/../../python/Lib/site-packages/_pytest/main.py" />
+    <entry file="file://D:/python/Lib/site-packages/urllib3/poolmanager.py" />
+    <entry file="file://D:/python/Lib/site-packages/urllib3/request.py" />
+    <entry file="file://D:/python/Lib/site-packages/_pytest/main.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
@@ -439,7 +465,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../python/Lib/site-packages/_pytest/config/__init__.py" />
+    <entry file="file://D:/python/Lib/site-packages/_pytest/config/__init__.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -447,22 +473,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../python/Lib/encodings/utf_8_sig.py" />
-    <entry file="file://$PROJECT_DIR$/../../python/Lib/codecs.py" />
-    <entry file="file://$PROJECT_DIR$/../../python/Lib/unittest/case.py" />
-    <entry file="file://$PROJECT_DIR$/../../python/Lib/site-packages/_pytest/unittest.py" />
-    <entry file="file://$PROJECT_DIR$/../../python/Lib/site-packages/pluggy/callers.py" />
-    <entry file="file://$PROJECT_DIR$/../../python/Lib/site-packages/pluggy/manager.py" />
-    <entry file="file://$PROJECT_DIR$/../../python/Lib/site-packages/pluggy/hooks.py" />
-    <entry file="file://$PROJECT_DIR$/../../python/Lib/site-packages/_pytest/runner.py" />
-    <entry file="file://$PROJECT_DIR$/../../python/Lib/configparser.py" />
-    <entry file="file://$PROJECT_DIR$/../../python/Lib/string.py" />
-    <entry file="file://$PROJECT_DIR$/../../python/Lib/json/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/../../python/Lib/logging/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/../../python/Lib/json/encoder.py" />
-    <entry file="file://$PROJECT_DIR$/../../python/Lib/site-packages/selenium/webdriver/remote/utils.py" />
-    <entry file="file://$PROJECT_DIR$/../../python/Lib/site-packages/selenium/webdriver/remote/remote_connection.py" />
-    <entry file="file://$PROJECT_DIR$/../../python/Lib/site-packages/selenium/webdriver/remote/webdriver.py" />
+    <entry file="file://D:/python/Lib/encodings/utf_8_sig.py" />
+    <entry file="file://D:/python/Lib/codecs.py" />
+    <entry file="file://D:/python/Lib/unittest/case.py" />
+    <entry file="file://D:/python/Lib/site-packages/_pytest/unittest.py" />
+    <entry file="file://D:/python/Lib/site-packages/pluggy/callers.py" />
+    <entry file="file://D:/python/Lib/site-packages/pluggy/manager.py" />
+    <entry file="file://D:/python/Lib/site-packages/pluggy/hooks.py" />
+    <entry file="file://D:/python/Lib/site-packages/_pytest/runner.py" />
+    <entry file="file://D:/python/Lib/configparser.py" />
+    <entry file="file://D:/python/Lib/string.py" />
+    <entry file="file://D:/python/Lib/json/__init__.py" />
+    <entry file="file://D:/python/Lib/logging/__init__.py" />
+    <entry file="file://D:/python/Lib/json/encoder.py" />
+    <entry file="file://D:/python/Lib/site-packages/selenium/webdriver/remote/utils.py" />
+    <entry file="file://D:/python/Lib/site-packages/selenium/webdriver/remote/remote_connection.py" />
+    <entry file="file://D:/python/Lib/site-packages/selenium/webdriver/remote/webdriver.py" />
     <entry file="file://$PROJECT_DIR$/UItest/case/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -470,7 +496,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../python/Lib/site-packages/selenium/webdriver/remote/webelement.py" />
+    <entry file="file://D:/python/Lib/site-packages/selenium/webdriver/remote/webelement.py" />
     <entry file="file://$PROJECT_DIR$/odbc/odbcBasc.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">

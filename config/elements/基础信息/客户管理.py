@@ -2,8 +2,8 @@
 客户档案页面
 '''
 客户新建="xpath==//button/span[text()='新 增']/.."
-客户编辑="xpath==//tr[2]//td/div/a[1]"
-客户删除="xpath==//tr[2]//td/div/a[2]"
+客户编辑="xpath==//tr[2]//td/a[1]"
+客户删除="xpath==//tr[2]//td/a[2]"
 合并重名客户="xpath==//button/span[text()='合并重名客户']/.."
 客户档案导出Excel="xpath==//button/span[text()='导出Excel']/.."
 客户档案搜索框="xpath==//input[@placeholder='名称/联系电话']"
