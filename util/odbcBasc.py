@@ -1,24 +1,23 @@
 import pymssql
 import configparser
 class odbc():
-
     def __init__(self):
-        '''
-        server    数据库服务器名称或IP
-        #user      用户名
-        #password  密码
-        #database  数据库名称
-        Data Source=10.10.120.172;Initial Catalog=pms_demo_master;Uid=sa;Pwd=Sa123456
-        '''
-        self.server='10.10.120.172'
-        self.user='sa'
-        self.password='Sa123456'
-        self.database='pms_test_0918'
+        self.server=self.readDataSql("server")
+        self.user=self.readDataSql("user")
+        self.password=self.readDataSql("password")
+        self.database=self.readDataSql("database")
+    #读取数据配置文件。
+    def readDataSql(self, key):
+        conf = configparser.ConfigParser()
+        conf.read("../config/dataconfig/sqlconfig.ini", encoding="utf-8-sig")
+        # conf.read("D:/GitHub/pythonUnittest-master/config/testData.ini", encoding="utf-8-sig")
+        value = conf.get("sql", key)
+        return value
 
     def connect(self):
          self.cnxn = pymssql.connect(self.server, self.user, self.password, self.database)
          self.cursor=self.cnxn.cursor() # 获取光标
-    def select(self,sql):
+    def selectData(self,sql):
         '''
         查询数
         'select Name from OrganizationItem where Discriminator=%s','管理区'
@@ -44,7 +43,9 @@ class odbc():
 
     # 修改操作
     def UpdateData(self,sql):
+        print(self.redsqlconfig(sql))
         self.cursor.execute(self.redsqlconfig(sql))
+        self.cnxn.commit()
 
     def close(self):
         '''
@@ -54,11 +55,11 @@ class odbc():
         self.cnxn.close()
 
     '''
-         读取数据库配置文件
+         读取数据库执行脚本
     '''
     def redsqlconfig(self, key):
         conf = configparser.ConfigParser()
-        conf.read("D:/GitHub/pythonUnittest-master/config/sql.ini", encoding="utf-8-sig")
+        conf.read("../config/dataconfig/sql.ini", encoding="utf-8-sig")
         value = conf.get("SQL", key)
         return value
     def writeConfig(self):

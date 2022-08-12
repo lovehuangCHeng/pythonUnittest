@@ -1,9 +1,5 @@
 #coding=utf-8
 from util import utils
-from config.elements.基础信息 import 客户管理 as khgl
-from config.elements.基础信息 import 房产档案 as fl
-from config.elements.基础信息 import 仪表管理 as yb
-
 class BascinfoPage(utils.BascUtils):
 
      #获取物业资源树搜索框

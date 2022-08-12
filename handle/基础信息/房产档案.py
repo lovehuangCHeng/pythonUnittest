@@ -1,5 +1,5 @@
 #coding=utf-8
-from page import wuyesorcesPage
+from page.基础信息 import 房产档案
 from time import sleep
 from config.elements import  geturl
 class louyuHandle(wuyesorcesPage.BascinfoPage):
