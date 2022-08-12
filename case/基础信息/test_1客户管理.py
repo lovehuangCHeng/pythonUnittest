@@ -8,12 +8,7 @@ class Test_BascinfoCase(unittest.TestCase):
      customerName="张胜男"
      @classmethod
      def setUpClass(cls):
-          cls.lp.geturl(cls.url)
-          cls.lp.setCookie()
-          sleep(3)
-          cls.lp.geturl(cls.url)
-          cls.lp.closetabl()
-          cls.lp.geturl(cls.url)
+          cls.lp.login_By_Cookies(cls.url)
      #新建
      def test1_add_kehu(self):
           try:

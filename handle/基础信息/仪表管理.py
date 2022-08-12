@@ -1,10 +1,9 @@
 from page.基础信息 import 仪表管理 as ybgl
 from time import sleep
-
-
 class YiBiaoTypeHandle(ybgl.YiBiaoPage):
     # 新建仪表类型
     def YiBiaoType_add(self, name, unit):
+        sleep(1)
         self.click_addYiBiaoType()
         sleep(1)
         self.sendkeys_add_YiBiaoType_name(name)
@@ -12,7 +11,7 @@ class YiBiaoTypeHandle(ybgl.YiBiaoPage):
         self.sendkeys_add_YiBiaoType_unit(unit)
         sleep(1)
         self.click_YiBiaoType_save()
-        sleep(1)
+        sleep(2)
 
     # 编辑仪表
     def YiBiaoType_edit(self, value):
@@ -22,7 +21,7 @@ class YiBiaoTypeHandle(ybgl.YiBiaoPage):
         self.click_editYiBiaoType()
         sleep(1)
         self.click_YiBiaoType_save()
-        sleep(1)
+        sleep(2)
 
     # 查询仪表
     def YiBiaoType_secrch(self, value):
@@ -30,7 +29,7 @@ class YiBiaoTypeHandle(ybgl.YiBiaoPage):
         self.sendkeys_YiBiaoType_secrch(value)
         sleep(1)
         self.click_YiBiaoType_secrch()
-        sleep(1)
+        sleep(2)
 
     # 高级搜索仪表
     def YiBiaoType_sennior_secrch(self, value):
@@ -42,7 +41,7 @@ class YiBiaoTypeHandle(ybgl.YiBiaoPage):
         self.sendkeys_YiBiaoType_secrch_senior(value)
         sleep(1)
         self.click_YiBiaoType_secrh_senior()
-        sleep(1)
+        sleep(2)
 
 
     # 删除仪表
@@ -54,7 +53,7 @@ class YiBiaoTypeHandle(ybgl.YiBiaoPage):
         self.click_delYiBiaoType()
         sleep(1)
         self.click_confirmDelYiBiaoType()
-        sleep(1)
+        sleep(2)
 
     # 断言保存成功
     def assert_YiBiaoType_saveSucc(self, excptvalue):

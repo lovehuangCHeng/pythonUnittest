@@ -2,7 +2,6 @@ from util import utils
 from config.elements.基础信息 import 仪表管理 as ybgl
 from config.elements import geturl
 
-
 class YiBiaoPage(utils.BascUtils):
     url_YiBiaoType = geturl.仪表类型
 
@@ -57,11 +56,9 @@ class YiBiaoPage(utils.BascUtils):
     #     获取仪表类型-新增保存按钮，并点击
     def click_YiBiaoType_save(self):
         self.click(ybgl.仪表类型保存)
-
     '''
      断言
      '''
-
     # 获取仪表类型-更新仪表成功，并返回element
     def find_element_savesucc(self):
         return self.find_element(ybgl.更新仪表成功).text

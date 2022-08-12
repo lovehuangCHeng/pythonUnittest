@@ -16,30 +16,30 @@ class BascUtils():
      def __init__(self):
           self.driver = webdriver.Chrome()
           self.driver.implicitly_wait(10)
-     '''
-          通过下面七种方法找元素的方法，并返回元素 是一个element对象。
-     '''
-     def find_element_By(self, key):
-          by = key.split("==")[0]
-          by_value = key.split("==")[1]
-          try:
-               if by == "id":
-                    return self.driver.find_element_by_id(by_value)
-               elif by == "name":
-                    return self.driver.find_element_by_name(by_value)
-               elif by == "className":
-                    return self.driver.find_element_by_class_name(by_value)
-               elif by == "cssSelector":
-                    return self.driver.find_element_by_css_selector(by_value)
-               elif by == "xpath":
-                    return self.driver.find_element_by_xpath(by_value)
-               elif by == "textLink":
-                    return self.driver.find_element_by_link_text(by_value)
-               elif by == "tagName":
-                    return self.driver.find_element_by_tag_name(by_value)
-          except Exception as e:
-               print(e)
-               print("无法找到元素"+key)
+     # '''
+     #      通过下面七种方法找元素的方法，并返回元素 是一个element对象。
+     # '''
+     # def find_element_By(self, key):
+     #      by = key.split("==")[0]
+     #      by_value = key.split("==")[1]
+     #      try:
+     #           if by == "id":
+     #                return self.driver.find_element_by_id(by_value)
+     #           elif by == "name":
+     #                return self.driver.find_element_by_name(by_value)
+     #           elif by == "className":
+     #                return self.driver.find_element_by_class_name(by_value)
+     #           elif by == "cssSelector":
+     #                return self.driver.find_element_by_css_selector(by_value)
+     #           elif by == "xpath":
+     #                return self.driver.find_element_by_xpath(by_value)
+     #           elif by == "textLink":
+     #                return self.driver.find_element_by_link_text(by_value)
+     #           elif by == "tagName":
+     #                return self.driver.find_element_by_tag_name(by_value)
+     #      except Exception as e:
+     #           print(e)
+     #           print("无法找到元素"+key)
 
      '''
                通过下面七种方法找元素的方法，并返回元素 是一个element对象。
@@ -123,13 +123,7 @@ class BascUtils():
                self.driver.maximize_window()
           except:
                print("窗口不用最大化了")
-     '''
-     登录成功后，处理提示框
-     '''
-     def closetabl(self):
-          element =self.driver.find_element_by_xpath("//button[@aria-label='Close']")
-          if element :
-               element.click()
+
 
      '''
      定义script方法，用于执行js脚本，范围执行结果
@@ -223,18 +217,28 @@ class BascUtils():
      def charis_sliding(self):
           js = "var q=document.documentElement.scrollTop=100000"
           self.driver.execute_script(js)
-
-
-
      '''
       Ele.send_keys(Keys.BACK_SPACE) 将搜索框中的Python1中的1删除
       Ele.send_keys(Keys.CONTRL,’a’) 将搜索框中的Python字样全选
       Ele.send_keys(Keys.CONTRL,’x’) 将搜索框中的Python字样剪切
       Ele.send_keys(Keys.CONTRL,’v’) 将搜索框中的Python字样粘贴
      '''
-     # # 键盘回车事件
-     # def keys_ebter(self,element):
-     #      element.send_keys(Keys.CONTROL.Enter)
+
+     # 登录成功后，处理提示框
+     def closetabl(self):
+          element = self.driver.find_element_by_xpath("//button[@aria-label='Close']")
+          if element:
+               element.click()
+
+     # 使用cookies 登录
+     def login_By_Cookies(self, url):
+          self.geturl(url)
+          self.setCookie()
+          time.sleep(2)
+          self.geturl(url)
+          self.closetabl()
+          self.geturl(url)
+
 
 # c=BascUtils()
 # c.setCookie()
